@@ -1,0 +1,60 @@
+__pycache__/
+
+# Terraform: state and plans stay local, never in git
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfplan
+*.tfvars
+crash.log
+tools/
+
+# enclave build outputs
+*.eif
+
+# doc generator dependencies (reinstall with: cd tools/docgen && npm ci)
+node_modules/
+
+# local outputs of encrypt_input.py (ciphertext, still kept out of git)
+data/encrypted/
+
+# reports downloaded from S3 in lab step L8 (synthetic, but never in git)
+reports/
+
+# the original v1 guide: superseded by v2, kept local only (personal notes)
+confidential-processing-aws-study-guide.docx
+
+# secrets and credentials: never in git
+.env
+*.pem
+*.key
+.aws/
+
+# local Terraform overrides and CLI config
+override.tf
+*_override.tf
+.terraformrc
+terraform.rc
+
+# enclave build inputs fetched or produced on the instance
+poc/enclave/kmstool_enclave_cli
+poc/enclave/libnsm.so
+pcrs.json
+
+# Python environments and caches
+.venv/
+venv/
+.pytest_cache/
+
+# editor, OS and Office lock files
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+.DS_Store
+~$*
+.~lock.*#
+
+# working notes (task lists and session logs): kept local, not published
+tasks/

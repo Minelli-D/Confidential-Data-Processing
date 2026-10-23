@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="630" viewBox="0 0 900 630">
+<defs><marker id="e2E7D4F" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#2E7D4F"/></marker><marker id="s2E7D4F" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M10,0 L0,5 L10,10 z" fill="#2E7D4F"/></marker><marker id="e6B7787" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#6B7787"/></marker><marker id="s6B7787" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M10,0 L0,5 L10,10 z" fill="#6B7787"/></marker><marker id="eA86A12" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#A86A12"/></marker><marker id="sA86A12" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M10,0 L0,5 L10,10 z" fill="#A86A12"/></marker></defs>
+<rect width="900" height="630" fill="#FFFFFF"/>
+<rect x="15" y="14" width="190" height="58" rx="8" fill="#F1F3F6" stroke="#6B7787" stroke-width="1.8"/>
+<text x="110" y="39" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="15" font-weight="700" fill="#1F2A44" text-anchor="middle" xml:space="preserve">Nitro Hypervisor</text>
+<text x="110" y="59" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="12.5" font-weight="400" fill="#5B6577" text-anchor="middle" xml:space="preserve">signs the proof</text>
+<path d="M 110,72 L 110,582" fill="none" stroke="#AEB7C4" stroke-width="1.5" stroke-dasharray="5 5"/>
+<rect x="245" y="14" width="190" height="58" rx="8" fill="#E2F2E8" stroke="#2E7D4F" stroke-width="1.8"/>
+<text x="340" y="39" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="15" font-weight="700" fill="#2E7D4F" text-anchor="middle" xml:space="preserve">Nitro Enclave</text>
+<text x="340" y="59" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="12.5" font-weight="400" fill="#5B6577" text-anchor="middle" xml:space="preserve">holds the private key</text>
+<path d="M 340,72 L 340,582" fill="none" stroke="#AEB7C4" stroke-width="1.5" stroke-dasharray="5 5"/>
+<rect x="475" y="14" width="190" height="58" rx="8" fill="#FFFFFF" stroke="#1F2A44" stroke-width="1.8"/>
+<text x="570" y="39" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="15" font-weight="700" fill="#1F2A44" text-anchor="middle" xml:space="preserve">Job pod (parent)</text>
+<text x="570" y="59" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="12.5" font-weight="400" fill="#5B6577" text-anchor="middle" xml:space="preserve">vsock-proxy</text>
+<path d="M 570,72 L 570,582" fill="none" stroke="#AEB7C4" stroke-width="1.5" stroke-dasharray="5 5"/>
+<rect x="695" y="14" width="190" height="58" rx="8" fill="#FCF0D9" stroke="#A86A12" stroke-width="1.8"/>
+<text x="790" y="39" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="15" font-weight="700" fill="#A86A12" text-anchor="middle" xml:space="preserve">AWS KMS</text>
+<text x="790" y="59" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="12.5" font-weight="400" fill="#5B6577" text-anchor="middle" xml:space="preserve">checks the proof</text>
+<path d="M 790,72 L 790,582" fill="none" stroke="#AEB7C4" stroke-width="1.5" stroke-dasharray="5 5"/>
+<rect x="215.0" y="92" width="250" height="36" rx="6" fill="#E2F2E8" stroke="#2E7D4F" stroke-width="1.5"/>
+<circle cx="217.0" cy="110.0" r="12" fill="#2E7D4F" stroke="#FFFFFF" stroke-width="2"/>
+<text x="217.0" y="115.0" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="14" font-weight="700" fill="#FFFFFF" text-anchor="middle" xml:space="preserve">1</text>
+<text x="348" y="115.0" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13.5" font-weight="400" fill="#1F2A44" text-anchor="middle" xml:space="preserve">creates a temporary key pair</text>
+<path d="M 338,178 L 112,178" fill="none" stroke="#2E7D4F" stroke-width="2" marker-end="url(#e2E7D4F)"/>
+<circle cx="318" cy="178" r="12" fill="#2E7D4F" stroke="#FFFFFF" stroke-width="2"/>
+<text x="318" y="183" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="14" font-weight="700" fill="#FFFFFF" text-anchor="middle" xml:space="preserve">2</text>
+<text x="225" y="152" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13" font-weight="400" fill="#1F2A44" text-anchor="middle" xml:space="preserve">ask for a signed attestation doc</text>
+<text x="225" y="167" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13" font-weight="400" fill="#1F2A44" text-anchor="middle" xml:space="preserve">(PCRs + my public key)</text>
+<path d="M 112,232 L 338,232" fill="none" stroke="#6B7787" stroke-width="2" marker-end="url(#e6B7787)"/>
+<circle cx="132" cy="232" r="12" fill="#1F2A44" stroke="#FFFFFF" stroke-width="2"/>
+<text x="132" y="237" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="14" font-weight="700" fill="#FFFFFF" text-anchor="middle" xml:space="preserve">3</text>
+<text x="232" y="222" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13" font-weight="400" fill="#1F2A44" text-anchor="middle" xml:space="preserve">signed attestation document</text>
+<path d="M 342,300 L 788,300" fill="none" stroke="#A86A12" stroke-width="2" marker-end="url(#eA86A12)"/>
+<circle cx="362" cy="300" r="12" fill="#A86A12" stroke="#FFFFFF" stroke-width="2"/>
+<text x="362" y="305" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="14" font-weight="700" fill="#FFFFFF" text-anchor="middle" xml:space="preserve">4</text>
+<text x="565" y="283" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13.5" font-weight="700" fill="#1F2A44" text-anchor="middle" xml:space="preserve" stroke="#FFFFFF" stroke-width="5" stroke-linejoin="round" paint-order="stroke">Decrypt( encrypted data key + attestation document )</text>
+<text x="455" y="320" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="12" font-weight="400" fill="#5B6577" text-anchor="middle" xml:space="preserve">over vsock</text>
+<text x="680" y="320" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="12" font-weight="400" fill="#5B6577" text-anchor="middle" xml:space="preserve">over the KMS endpoint</text>
+<rect x="671.0" y="345" width="214" height="52" rx="6" fill="#FCF0D9" stroke="#A86A12" stroke-width="1.5"/>
+<circle cx="673.0" cy="371.0" r="12" fill="#A86A12" stroke="#FFFFFF" stroke-width="2"/>
+<text x="673.0" y="376.0" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="14" font-weight="700" fill="#FFFFFF" text-anchor="middle" xml:space="preserve">5</text>
+<text x="786" y="367.0" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13.5" font-weight="400" fill="#1F2A44" text-anchor="middle" xml:space="preserve">checks the signature +</text>
+<text x="786" y="385.0" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13.5" font-weight="400" fill="#1F2A44" text-anchor="middle" xml:space="preserve">PCR0 against the key policy</text>
+<path d="M 788,440 L 342,440" fill="none" stroke="#A86A12" stroke-width="2" marker-end="url(#eA86A12)"/>
+<circle cx="768" cy="440" r="12" fill="#A86A12" stroke="#FFFFFF" stroke-width="2"/>
+<text x="768" y="445" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="14" font-weight="700" fill="#FFFFFF" text-anchor="middle" xml:space="preserve">6</text>
+<text x="565" y="423" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13.5" font-weight="700" fill="#1F2A44" text-anchor="middle" xml:space="preserve" stroke="#FFFFFF" stroke-width="5" stroke-linejoin="round" paint-order="stroke">data key, encrypted to the enclave's public key</text>
+<rect x="470" y="456" width="200" height="30" rx="6" fill="#FFFFFF" stroke="#1F2A44" stroke-width="1"/>
+<text x="570" y="476" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="12.5" font-weight="400" fill="#1F2A44" text-anchor="middle" xml:space="preserve" font-style="italic">relays bytes it can't read</text>
+<rect x="205.0" y="512" width="270" height="52" rx="6" fill="#E2F2E8" stroke="#2E7D4F" stroke-width="1.5"/>
+<circle cx="207.0" cy="538.0" r="12" fill="#2E7D4F" stroke="#FFFFFF" stroke-width="2"/>
+<text x="207.0" y="543.0" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="14" font-weight="700" fill="#FFFFFF" text-anchor="middle" xml:space="preserve">7</text>
+<text x="348" y="534.0" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13.5" font-weight="400" fill="#1F2A44" text-anchor="middle" xml:space="preserve">unwraps the data key with its</text>
+<text x="348" y="552.0" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13.5" font-weight="400" fill="#1F2A44" text-anchor="middle" xml:space="preserve">private key → decrypts the data</text>
+<text x="450" y="612" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13.5" font-weight="700" fill="#B23A2E" text-anchor="middle" xml:space="preserve">If the PCR0 doesn't match, step 5 fails and the enclave never gets the key.</text>
+</svg>

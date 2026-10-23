@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="650" viewBox="0 0 900 650">
+<defs><marker id="e1F2A44" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#1F2A44"/></marker><marker id="s1F2A44" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M10,0 L0,5 L10,10 z" fill="#1F2A44"/></marker><marker id="e6B7787" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#6B7787"/></marker><marker id="s6B7787" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M10,0 L0,5 L10,10 z" fill="#6B7787"/></marker></defs>
+<rect width="900" height="650" fill="#FFFFFF"/>
+<text x="16" y="28" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="17" font-weight="400" fill="#1F2A44" text-anchor="start" xml:space="preserve"><tspan font-weight="700" fill="#B23A2E">VERSION 1</tspan><tspan font-weight="400" fill="#1F2A44">  ·  trusts the namespace</tspan></text>
+<rect x="15" y="44" width="186" height="82" rx="8" fill="#FFFFFF" stroke="#6B7787" stroke-width="1.5"/>
+<text x="108.0" y="72.0" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="15" font-weight="400" fill="#1F2A44" text-anchor="middle" xml:space="preserve">Pull data from</text>
+<text x="108.0" y="90.0" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="15" font-weight="400" fill="#1F2A44" text-anchor="middle" xml:space="preserve">the source</text>
+<text x="108.0" y="108.0" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="15" font-weight="400" fill="#1F2A44" text-anchor="middle" xml:space="preserve">and encrypt it</text>
+<path d="M 205,85.0 L 238,85.0" fill="none" stroke="#6B7787" stroke-width="2" marker-end="url(#e6B7787)"/>
+<rect x="243" y="44" width="186" height="82" rx="8" fill="#FBE5E1" stroke="#B23A2E" stroke-width="2"/>
+<text x="336.0" y="72.0" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="15" font-weight="700" fill="#B23A2E" text-anchor="middle" xml:space="preserve">Decrypt + process</text>
+<text x="336.0" y="90.0" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="15" font-weight="700" fill="#B23A2E" text-anchor="middle" xml:space="preserve">in a throwaway</text>
+<text x="336.0" y="108.0" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="15" font-weight="700" fill="#B23A2E" text-anchor="middle" xml:space="preserve">K8s namespace</text>
+<path d="M 433,85.0 L 466,85.0" fill="none" stroke="#6B7787" stroke-width="2" marker-end="url(#e6B7787)"/>
+<rect x="471" y="44" width="186" height="82" rx="8" fill="#FFFFFF" stroke="#6B7787" stroke-width="1.5"/>
+<text x="564.0" y="72.0" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="15" font-weight="400" fill="#1F2A44" text-anchor="middle" xml:space="preserve">Re-encrypt</text>
+<text x="564.0" y="90.0" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="15" font-weight="400" fill="#1F2A44" text-anchor="middle" xml:space="preserve">the result and</text>
+<text x="564.0" y="108.0" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="15" font-weight="400" fill="#1F2A44" text-anchor="middle" xml:space="preserve">store it in S3</text>
+<path d="M 661,85.0 L 694,85.0" fill="none" stroke="#6B7787" stroke-width="2" marker-end="url(#e6B7787)"/>
+<rect x="699" y="44" width="186" height="82" rx="8" fill="#FFFFFF" stroke="#6B7787" stroke-width="1.5"/>
+<text x="792.0" y="81.0" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="15" font-weight="400" fill="#1F2A44" text-anchor="middle" xml:space="preserve">Move it back</text>
+<text x="792.0" y="99.0" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="15" font-weight="400" fill="#1F2A44" text-anchor="middle" xml:space="preserve">to the source</text>
+<path d="M 336,126 L 336,150" fill="none" stroke="#B23A2E" stroke-width="2"/>
+<rect x="110" y="150" width="680" height="88" rx="8" fill="#FBE5E1" stroke="#B23A2E" stroke-width="1.5"/>
+<circle cx="140" cy="178" r="14" fill="#B23A2E"/>
+<text x="140" y="184" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="18" font-weight="700" fill="#FFFFFF" text-anchor="middle" xml:space="preserve">!</text>
+<text x="166" y="182" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="15" font-weight="700" fill="#B23A2E" text-anchor="start" xml:space="preserve">Weak point: once decrypted, data sits in pod memory as plaintext.</text>
+<text x="166" y="205" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="14" font-weight="400" fill="#1F2A44" text-anchor="start" xml:space="preserve">A namespace organises resources. It is not a security boundary.</text>
+<text x="166" y="226" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="14" font-weight="400" fill="#1F2A44" text-anchor="start" xml:space="preserve">Exposed to: cluster admins · node access · memory dumps · logs · swap</text>
+<rect x="140" y="258" width="620" height="48" rx="24" fill="#1F2A44" stroke="#1F2A44" stroke-width="1"/>
+<text x="450" y="288" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="17" font-weight="700" fill="#FFFFFF" text-anchor="middle" xml:space="preserve">Stop trusting the place  →  start verifying the code</text>
+<path d="M 450,306 L 450,326" fill="none" stroke="#1F2A44" stroke-width="2" marker-end="url(#e1F2A44)"/>
+<text x="16" y="352" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="17" font-weight="400" fill="#1F2A44" text-anchor="start" xml:space="preserve"><tspan font-weight="700" fill="#2E7D4F">VERSION 2</tspan><tspan font-weight="400" fill="#1F2A44">  ·  verifies the hardware</tspan></text>
+<rect x="15" y="368" width="186" height="82" rx="8" fill="#FFFFFF" stroke="#6B7787" stroke-width="1.5"/>
+<text x="108.0" y="396.0" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="15" font-weight="400" fill="#1F2A44" text-anchor="middle" xml:space="preserve">Source encrypts</text>
+<text x="108.0" y="414.0" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="15" font-weight="400" fill="#1F2A44" text-anchor="middle" xml:space="preserve">with a fresh</text>
+<text x="108.0" y="432.0" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="15" font-weight="400" fill="#1F2A44" text-anchor="middle" xml:space="preserve">per-job data key</text>
+<path d="M 205,409.0 L 238,409.0" fill="none" stroke="#6B7787" stroke-width="2" marker-end="url(#e6B7787)"/>
+<rect x="243" y="368" width="186" height="82" rx="8" fill="#FFFFFF" stroke="#6B7787" stroke-width="1.5"/>
+<text x="336.0" y="405.0" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="15" font-weight="400" fill="#1F2A44" text-anchor="middle" xml:space="preserve">Only ciphertext</text>
+<text x="336.0" y="423.0" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="15" font-weight="400" fill="#1F2A44" text-anchor="middle" xml:space="preserve">waits in S3</text>
+<path d="M 433,409.0 L 466,409.0" fill="none" stroke="#6B7787" stroke-width="2" marker-end="url(#e6B7787)"/>
+<rect x="471" y="368" width="186" height="82" rx="8" fill="#E2F2E8" stroke="#2E7D4F" stroke-width="2"/>
+<text x="564.0" y="396.0" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="15" font-weight="700" fill="#2E7D4F" text-anchor="middle" xml:space="preserve">Decrypt + process</text>
+<text x="564.0" y="414.0" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="15" font-weight="700" fill="#2E7D4F" text-anchor="middle" xml:space="preserve">inside a</text>
+<text x="564.0" y="432.0" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="15" font-weight="700" fill="#2E7D4F" text-anchor="middle" xml:space="preserve">Nitro Enclave</text>
+<path d="M 661,409.0 L 694,409.0" fill="none" stroke="#6B7787" stroke-width="2" marker-end="url(#e6B7787)"/>
+<rect x="699" y="368" width="186" height="82" rx="8" fill="#FFFFFF" stroke="#6B7787" stroke-width="1.5"/>
+<text x="792.0" y="396.0" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="15" font-weight="400" fill="#1F2A44" text-anchor="middle" xml:space="preserve">Encrypted result</text>
+<text x="792.0" y="414.0" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="15" font-weight="400" fill="#1F2A44" text-anchor="middle" xml:space="preserve">goes back</text>
+<text x="792.0" y="432.0" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="15" font-weight="400" fill="#1F2A44" text-anchor="middle" xml:space="preserve">to the source</text>
+<text x="450" y="482" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="14" font-weight="700" fill="#5B6577" text-anchor="middle" xml:space="preserve">The three pillars of version 2</text>
+<rect x="15" y="494" width="280" height="92" rx="8" fill="#E2F2E8" stroke="#2E7D4F" stroke-width="2"/>
+<text x="155" y="522" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="18" font-weight="700" fill="#2E7D4F" text-anchor="middle" xml:space="preserve">ISOLATE</text>
+<text x="155" y="547" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="14" font-weight="400" fill="#1F2A44" text-anchor="middle" xml:space="preserve">Nitro Enclave: no disk,</text>
+<text x="155" y="566" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="14" font-weight="400" fill="#1F2A44" text-anchor="middle" xml:space="preserve">no network, no SSH</text>
+<rect x="310" y="494" width="280" height="92" rx="8" fill="#FCF0D9" stroke="#A86A12" stroke-width="2"/>
+<text x="450" y="522" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="18" font-weight="700" fill="#A86A12" text-anchor="middle" xml:space="preserve">PROVE</text>
+<text x="450" y="547" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="14" font-weight="400" fill="#1F2A44" text-anchor="middle" xml:space="preserve">KMS releases the key only</text>
+<text x="450" y="566" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="14" font-weight="400" fill="#1F2A44" text-anchor="middle" xml:space="preserve">to the attested build (PCR0)</text>
+<rect x="605" y="494" width="280" height="92" rx="8" fill="#E3EDF7" stroke="#1F4E79" stroke-width="2"/>
+<text x="745" y="522" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="18" font-weight="700" fill="#1F4E79" text-anchor="middle" xml:space="preserve">FORGET</text>
+<text x="745" y="547" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="14" font-weight="400" fill="#1F2A44" text-anchor="middle" xml:space="preserve">per-job key discarded</text>
+<text x="745" y="566" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="14" font-weight="400" fill="#1F2A44" text-anchor="middle" xml:space="preserve">after the job: crypto-shredding</text>
+<rect x="15" y="602" width="870" height="38" rx="8" fill="#F1F3F6" stroke="#6B7787" stroke-width="1"/>
+<text x="450" y="627" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="15" font-weight="400" fill="#1F2A44" text-anchor="middle" xml:space="preserve">Everything is code (Terraform): build → run → destroy, so nothing is left running</text>
+</svg>

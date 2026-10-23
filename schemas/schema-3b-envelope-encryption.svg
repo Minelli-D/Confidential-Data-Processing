@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="420" viewBox="0 0 900 420">
+<defs><marker id="e6B7787" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#6B7787"/></marker><marker id="s6B7787" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M10,0 L0,5 L10,10 z" fill="#6B7787"/></marker></defs>
+<rect width="900" height="420" fill="#FFFFFF"/>
+<text x="16" y="26" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="16" font-weight="400" fill="#1F2A44" text-anchor="start" xml:space="preserve"><tspan font-weight="700" fill="#1F4E79">ENCRYPT</tspan><tspan font-weight="400" fill="#1F2A44">  ·  at the source, when data comes in</tspan></text>
+<rect x="14" y="40" width="160" height="120" rx="8" fill="#FCF0D9" stroke="#A86A12" stroke-width="1.8"/>
+<circle cx="36" cy="62" r="13" fill="#A86A12" stroke="#FFFFFF" stroke-width="2"/>
+<text x="36" y="67" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="14" font-weight="700" fill="#FFFFFF" text-anchor="middle" xml:space="preserve">1</text>
+<text x="94" y="100" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="14" font-weight="400" fill="#1F2A44" text-anchor="middle" xml:space="preserve">Ask KMS for a</text>
+<text x="94" y="119" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="14" font-weight="400" fill="#1F2A44" text-anchor="middle" xml:space="preserve">data key</text>
+<text x="94" y="138" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="14" font-weight="400" fill="#1F2A44" text-anchor="middle" xml:space="preserve">(GenerateDataKey)</text>
+<path d="M 176,100 L 190,100" fill="none" stroke="#6B7787" stroke-width="2" marker-end="url(#e6B7787)"/>
+<rect x="192" y="40" width="160" height="120" rx="8" fill="#FFFFFF" stroke="#1F4E79" stroke-width="1.8"/>
+<circle cx="214" cy="62" r="13" fill="#1F4E79" stroke="#FFFFFF" stroke-width="2"/>
+<text x="214" y="67" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="14" font-weight="700" fill="#FFFFFF" text-anchor="middle" xml:space="preserve">2</text>
+<text x="272" y="100" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="14" font-weight="400" fill="#1F2A44" text-anchor="middle" xml:space="preserve">Get two copies:</text>
+<text x="272" y="119" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="14" font-weight="400" fill="#1F2A44" text-anchor="middle" xml:space="preserve">plaintext key</text>
+<text x="272" y="138" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="14" font-weight="400" fill="#1F2A44" text-anchor="middle" xml:space="preserve">+ encrypted key</text>
+<path d="M 354,100 L 368,100" fill="none" stroke="#6B7787" stroke-width="2" marker-end="url(#e6B7787)"/>
+<rect x="370" y="40" width="160" height="120" rx="8" fill="#FFFFFF" stroke="#1F4E79" stroke-width="1.8"/>
+<circle cx="392" cy="62" r="13" fill="#1F4E79" stroke="#FFFFFF" stroke-width="2"/>
+<text x="392" y="67" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="14" font-weight="700" fill="#FFFFFF" text-anchor="middle" xml:space="preserve">3</text>
+<text x="450" y="100" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="14" font-weight="400" fill="#1F2A44" text-anchor="middle" xml:space="preserve">Encrypt the data</text>
+<text x="450" y="119" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="14" font-weight="400" fill="#1F2A44" text-anchor="middle" xml:space="preserve">locally with the</text>
+<text x="450" y="138" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="14" font-weight="400" fill="#1F2A44" text-anchor="middle" xml:space="preserve">plaintext key</text>
+<path d="M 532,100 L 546,100" fill="none" stroke="#6B7787" stroke-width="2" marker-end="url(#e6B7787)"/>
+<rect x="548" y="40" width="160" height="120" rx="8" fill="#FFFFFF" stroke="#1F4E79" stroke-width="1.8"/>
+<circle cx="570" cy="62" r="13" fill="#1F4E79" stroke="#FFFFFF" stroke-width="2"/>
+<text x="570" y="67" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="14" font-weight="700" fill="#FFFFFF" text-anchor="middle" xml:space="preserve">4</text>
+<text x="628" y="100" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="14" font-weight="400" fill="#1F2A44" text-anchor="middle" xml:space="preserve">Throw the</text>
+<text x="628" y="119" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="14" font-weight="400" fill="#1F2A44" text-anchor="middle" xml:space="preserve">plaintext key</text>
+<text x="628" y="138" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="14" font-weight="400" fill="#1F2A44" text-anchor="middle" xml:space="preserve">away</text>
+<path d="M 710,100 L 724,100" fill="none" stroke="#6B7787" stroke-width="2" marker-end="url(#e6B7787)"/>
+<rect x="726" y="40" width="160" height="120" rx="8" fill="#FFFFFF" stroke="#1F4E79" stroke-width="1.8"/>
+<circle cx="748" cy="62" r="13" fill="#1F4E79" stroke="#FFFFFF" stroke-width="2"/>
+<text x="748" y="67" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="14" font-weight="700" fill="#FFFFFF" text-anchor="middle" xml:space="preserve">5</text>
+<text x="806" y="92" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="14" font-weight="400" fill="#1F2A44" text-anchor="middle" xml:space="preserve">Store ciphertext</text>
+<text x="806" y="111" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="14" font-weight="400" fill="#1F2A44" text-anchor="middle" xml:space="preserve">+ encrypted key</text>
+<text x="806" y="130" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="14" font-weight="400" fill="#1F2A44" text-anchor="middle" xml:space="preserve">together</text>
+<text x="806" y="149" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="14" font-weight="400" fill="#1F2A44" text-anchor="middle" xml:space="preserve">(the envelope)</text>
+<text x="16" y="200" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="16" font-weight="400" fill="#1F2A44" text-anchor="start" xml:space="preserve"><tspan font-weight="700" fill="#2E7D4F">DECRYPT</tspan><tspan font-weight="400" fill="#1F2A44">  ·  inside the enclave</tspan></text>
+<rect x="14" y="214" width="160" height="120" rx="8" fill="#FCF0D9" stroke="#A86A12" stroke-width="1.8"/>
+<circle cx="36" cy="236" r="13" fill="#A86A12" stroke="#FFFFFF" stroke-width="2"/>
+<text x="36" y="241" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="14" font-weight="700" fill="#FFFFFF" text-anchor="middle" xml:space="preserve">1</text>
+<text x="94" y="274" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="14" font-weight="400" fill="#1F2A44" text-anchor="middle" xml:space="preserve">Send the</text>
+<text x="94" y="293" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="14" font-weight="400" fill="#1F2A44" text-anchor="middle" xml:space="preserve">encrypted key</text>
+<text x="94" y="312" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="14" font-weight="400" fill="#1F2A44" text-anchor="middle" xml:space="preserve">to KMS (Decrypt)</text>
+<path d="M 176,274 L 190,274" fill="none" stroke="#6B7787" stroke-width="2" marker-end="url(#e6B7787)"/>
+<rect x="192" y="214" width="160" height="120" rx="8" fill="#FCF0D9" stroke="#A86A12" stroke-width="1.8"/>
+<circle cx="214" cy="236" r="13" fill="#A86A12" stroke="#FFFFFF" stroke-width="2"/>
+<text x="214" y="241" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="14" font-weight="700" fill="#FFFFFF" text-anchor="middle" xml:space="preserve">2</text>
+<text x="272" y="274" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="14" font-weight="400" fill="#1F2A44" text-anchor="middle" xml:space="preserve">KMS checks</text>
+<text x="272" y="293" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="14" font-weight="400" fill="#1F2A44" text-anchor="middle" xml:space="preserve">the key policy</text>
+<text x="272" y="312" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="14" font-weight="400" fill="#1F2A44" text-anchor="middle" xml:space="preserve">(here: PCR0)</text>
+<path d="M 354,274 L 368,274" fill="none" stroke="#6B7787" stroke-width="2" marker-end="url(#e6B7787)"/>
+<rect x="370" y="214" width="160" height="120" rx="8" fill="#FFFFFF" stroke="#1F4E79" stroke-width="1.8"/>
+<circle cx="392" cy="236" r="13" fill="#1F4E79" stroke="#FFFFFF" stroke-width="2"/>
+<text x="392" y="241" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="14" font-weight="700" fill="#FFFFFF" text-anchor="middle" xml:space="preserve">3</text>
+<text x="450" y="274" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="14" font-weight="400" fill="#1F2A44" text-anchor="middle" xml:space="preserve">Get the</text>
+<text x="450" y="293" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="14" font-weight="400" fill="#1F2A44" text-anchor="middle" xml:space="preserve">plaintext key</text>
+<text x="450" y="312" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="14" font-weight="400" fill="#1F2A44" text-anchor="middle" xml:space="preserve">back</text>
+<path d="M 532,274 L 546,274" fill="none" stroke="#6B7787" stroke-width="2" marker-end="url(#e6B7787)"/>
+<rect x="548" y="214" width="160" height="120" rx="8" fill="#E2F2E8" stroke="#2E7D4F" stroke-width="1.8"/>
+<circle cx="570" cy="236" r="13" fill="#2E7D4F" stroke="#FFFFFF" stroke-width="2"/>
+<text x="570" y="241" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="14" font-weight="700" fill="#FFFFFF" text-anchor="middle" xml:space="preserve">4</text>
+<text x="628" y="282" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="14" font-weight="400" fill="#1F2A44" text-anchor="middle" xml:space="preserve">Decrypt the</text>
+<text x="628" y="301" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="14" font-weight="400" fill="#1F2A44" text-anchor="middle" xml:space="preserve">data locally</text>
+<path d="M 710,274 L 724,274" fill="none" stroke="#6B7787" stroke-width="2" marker-end="url(#e6B7787)"/>
+<rect x="726" y="214" width="160" height="120" rx="8" fill="#FFFFFF" stroke="#1F4E79" stroke-width="1.8"/>
+<circle cx="748" cy="236" r="13" fill="#1F4E79" stroke="#FFFFFF" stroke-width="2"/>
+<text x="748" y="241" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="14" font-weight="700" fill="#FFFFFF" text-anchor="middle" xml:space="preserve">5</text>
+<text x="806" y="282" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="14" font-weight="400" fill="#1F2A44" text-anchor="middle" xml:space="preserve">Throw the key</text>
+<text x="806" y="301" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="14" font-weight="400" fill="#1F2A44" text-anchor="middle" xml:space="preserve">away again</text>
+<rect x="14" y="352" width="872" height="56" rx="8" fill="#FCF0D9" stroke="#A86A12" stroke-width="1.2"/>
+<text x="450" y="375" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="14.5" font-weight="400" fill="#1F2A44" text-anchor="middle" xml:space="preserve"><tspan font-weight="700" fill="#A86A12">Key fact: </tspan><tspan font-weight="400" fill="#1F2A44">the KMS key never leaves KMS. Only small data keys travel.</tspan></text>
+<text x="450" y="397" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="14" font-weight="400" fill="#1F2A44" text-anchor="middle" xml:space="preserve">KMS Encrypt accepts only ~4 KB, so large data is always encrypted with a data key.</text>
+</svg>

@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="624" viewBox="0 0 900 624">
+<defs><marker id="e1F4E79" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#1F4E79"/></marker><marker id="s1F4E79" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M10,0 L0,5 L10,10 z" fill="#1F4E79"/></marker><marker id="e6B7787" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#6B7787"/></marker><marker id="s6B7787" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M10,0 L0,5 L10,10 z" fill="#6B7787"/></marker></defs>
+<rect width="900" height="624" fill="#FFFFFF"/>
+<rect x="16" y="16" width="868" height="90" rx="12" fill="#E3EDF7" stroke="#1F4E79" stroke-width="1.6"/>
+<text x="32" y="40" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="15" font-weight="400" fill="#1F2A44" text-anchor="start" xml:space="preserve"><tspan font-weight="700" fill="#1F4E79">SHARED  ·  base setup</tspan><tspan font-weight="400" fill="#1F2A44">  ·  kept between sessions  ·  about $1/month</tspan></text>
+<rect x="36" y="54" width="270" height="38" rx="19" fill="#FCF0D9" stroke="#A86A12" stroke-width="1.4"/>
+<text x="171.0" y="79" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13.5" font-weight="700" fill="#1F2A44" text-anchor="middle" xml:space="preserve">KMS key  ·  policy pins PCR0</text>
+<rect x="320" y="54" width="380" height="38" rx="19" fill="#F1F3F6" stroke="#6B7787" stroke-width="1.4"/>
+<text x="510.0" y="79" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13.5" font-weight="700" fill="#1F2A44" text-anchor="middle" xml:space="preserve">S3 bucket  ·  encrypted data, enclave image, report</text>
+<rect x="714" y="54" width="150" height="38" rx="19" fill="#FFFFFF" stroke="#1F2A44" stroke-width="1.4"/>
+<text x="789.0" y="79" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13.5" font-weight="700" fill="#1F2A44" text-anchor="middle" xml:space="preserve">Budget alert</text>
+<path d="M 228,106 L 228,138" fill="none" stroke="#1F4E79" stroke-width="2" marker-end="url(#e1F4E79)"/>
+<path d="M 672,106 L 672,138" fill="none" stroke="#1F4E79" stroke-width="2" marker-end="url(#e1F4E79)"/>
+<text x="450" y="128" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="12.5" font-weight="700" fill="#1F4E79" text-anchor="middle" xml:space="preserve">same key · same bucket · same enclave image</text>
+<rect x="16" y="142" width="424" height="384" rx="12" fill="#FBFCFD" stroke="#1F2A44" stroke-width="1.6" stroke-dasharray="7 5"/>
+<text x="32" y="168" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="15.5" font-weight="700" fill="#1F2A44" text-anchor="start" xml:space="preserve">PATH 1  ·  EC2 only  (Tier 1)</text>
+<text x="32" y="188" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="12.5" font-weight="400" fill="#5B6577" text-anchor="start" xml:space="preserve">lab setup: created per session, then destroyed</text>
+<rect x="36" y="200" width="384" height="240" rx="8" fill="#FFFFFF" stroke="#1F2A44" stroke-width="1.5"/>
+<text x="228" y="222" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="14" font-weight="700" fill="#1F2A44" text-anchor="middle" xml:space="preserve">EC2 instance  ·  m6i.xlarge</text>
+<text x="228" y="241" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="12.5" font-weight="400" fill="#5B6577" text-anchor="middle" xml:space="preserve">enclave_options = enabled  ·  instance role</text>
+<rect x="56" y="254" width="344" height="44" rx="8" fill="#F1F3F6" stroke="#6B7787" stroke-width="1.2"/>
+<text x="228" y="272" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="12.5" font-weight="400" fill="#1F2A44" text-anchor="middle" xml:space="preserve">you, in an SSM session, start it:</text>
+<text x="228" y="289" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="12.5" font-weight="400" fill="#1F2A44" text-anchor="middle" xml:space="preserve">nitro-cli run-enclave</text>
+<rect x="56" y="316" width="150" height="108" rx="8" fill="#FFFFFF" stroke="#1F2A44" stroke-width="1.5"/>
+<text x="131" y="340" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13" font-weight="700" fill="#1F2A44" text-anchor="middle" xml:space="preserve">Parent process</text>
+<text x="131" y="359" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13" font-weight="400" fill="#1F2A44" text-anchor="middle" xml:space="preserve">vsock-proxy</text>
+<text x="131" y="378" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13" font-weight="400" fill="#1F2A44" text-anchor="middle" xml:space="preserve">sees ciphertext</text>
+<text x="131" y="397" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13" font-weight="400" fill="#1F2A44" text-anchor="middle" xml:space="preserve">only</text>
+<rect x="250" y="316" width="150" height="108" rx="8" fill="#E2F2E8" stroke="#2E7D4F" stroke-width="2"/>
+<text x="325" y="340" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13" font-weight="700" fill="#2E7D4F" text-anchor="middle" xml:space="preserve">Nitro Enclave</text>
+<text x="325" y="359" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13" font-weight="400" fill="#1F2A44" text-anchor="middle" xml:space="preserve">same image:</text>
+<text x="325" y="378" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13" font-weight="400" fill="#1F2A44" text-anchor="middle" xml:space="preserve">payroll_rules</text>
+<text x="325" y="397" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13" font-weight="400" fill="#1F2A44" text-anchor="middle" xml:space="preserve">+ reconcile</text>
+<path d="M 208,370 L 248,370" fill="none" stroke="#6B7787" stroke-width="2" marker-end="url(#e6B7787)" marker-start="url(#s6B7787)"/>
+<text x="228" y="360" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="11" font-weight="700" fill="#5B6577" text-anchor="middle" xml:space="preserve">vsock</text>
+<text x="228" y="470" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13" font-weight="700" fill="#1F2A44" text-anchor="middle" xml:space="preserve">Proves: only our enclave gets the key</text>
+<text x="228" y="492" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13" font-weight="400" fill="#1F2A44" text-anchor="middle" xml:space="preserve">~3 min to create  ·  ~$0.65 per 3-hour session</text>
+<rect x="460" y="142" width="424" height="384" rx="12" fill="#FBFCFD" stroke="#1F4E79" stroke-width="1.6" stroke-dasharray="7 5"/>
+<text x="476" y="168" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="15.5" font-weight="700" fill="#1F4E79" text-anchor="start" xml:space="preserve">PATH 2  ·  EKS  (Tier 2)</text>
+<text x="476" y="188" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="12.5" font-weight="400" fill="#5B6577" text-anchor="start" xml:space="preserve">lab setup: created per session, then destroyed</text>
+<rect x="480" y="200" width="384" height="38" rx="8" fill="#E3EDF7" stroke="#1F4E79" stroke-width="1.4"/>
+<text x="672" y="224" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13" font-weight="700" fill="#1F4E79" text-anchor="middle" xml:space="preserve">EKS control plane  ·  $0.10/hour  ·  runs the Job</text>
+<rect x="480" y="246" width="384" height="194" rx="8" fill="#FFFFFF" stroke="#1F2A44" stroke-width="1.5"/>
+<text x="672" y="266" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13" font-weight="700" fill="#1F2A44" text-anchor="middle" xml:space="preserve">Worker node  ·  EC2 m6i.xlarge  ·  enclave enabled</text>
+<rect x="500" y="278" width="344" height="28" rx="14" fill="#F1F3F6" stroke="#6B7787" stroke-width="1.2"/>
+<text x="672" y="297" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="12.5" font-weight="700" fill="#1F2A44" text-anchor="middle" xml:space="preserve">Nitro Enclaves device plugin  ·  hugepages</text>
+<rect x="500" y="316" width="150" height="108" rx="8" fill="#FFFFFF" stroke="#1F2A44" stroke-width="1.5"/>
+<text x="575" y="340" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13" font-weight="700" fill="#1F2A44" text-anchor="middle" xml:space="preserve">Job pod</text>
+<text x="575" y="359" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13" font-weight="400" fill="#1F2A44" text-anchor="middle" xml:space="preserve">image from ECR</text>
+<text x="575" y="378" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13" font-weight="400" fill="#1F2A44" text-anchor="middle" xml:space="preserve">Pod Identity role</text>
+<text x="575" y="397" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13" font-weight="400" fill="#1F2A44" text-anchor="middle" xml:space="preserve">vsock-proxy</text>
+<rect x="694" y="316" width="150" height="108" rx="8" fill="#E2F2E8" stroke="#2E7D4F" stroke-width="2"/>
+<text x="769" y="340" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13" font-weight="700" fill="#2E7D4F" text-anchor="middle" xml:space="preserve">Nitro Enclave</text>
+<text x="769" y="359" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13" font-weight="400" fill="#1F2A44" text-anchor="middle" xml:space="preserve">same image:</text>
+<text x="769" y="378" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13" font-weight="400" fill="#1F2A44" text-anchor="middle" xml:space="preserve">payroll_rules</text>
+<text x="769" y="397" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13" font-weight="400" fill="#1F2A44" text-anchor="middle" xml:space="preserve">+ reconcile</text>
+<path d="M 652,370 L 692,370" fill="none" stroke="#6B7787" stroke-width="2" marker-end="url(#e6B7787)" marker-start="url(#s6B7787)"/>
+<text x="672" y="360" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="11" font-weight="700" fill="#5B6577" text-anchor="middle" xml:space="preserve">vsock</text>
+<text x="672" y="470" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13" font-weight="700" fill="#1F2A44" text-anchor="middle" xml:space="preserve">Proves: the same, plus automation</text>
+<text x="672" y="492" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13" font-weight="400" fill="#1F2A44" text-anchor="middle" xml:space="preserve">~15–20 min to create  ·  ~$0.95 per 3-hour session</text>
+<rect x="16" y="546" width="868" height="64" rx="14" fill="#1F2A44" stroke="#1F2A44" stroke-width="1"/>
+<text x="450" y="572" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="15" font-weight="700" fill="#FFFFFF" text-anchor="middle" xml:space="preserve">Same confidential core on both paths: enclave + attestation + KMS.</text>
+<text x="450" y="595" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13.5" font-weight="400" fill="#FFFFFF" text-anchor="middle" xml:space="preserve">EKS doesn't replace EC2: it only decides when and where the enclave starts.</text>
+</svg>

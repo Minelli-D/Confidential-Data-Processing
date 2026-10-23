@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="660" viewBox="0 0 900 660">
+<defs></defs>
+<rect width="900" height="660" fill="#FFFFFF"/>
+<rect x="16" y="14" width="470" height="560" rx="12" fill="#FBFCFD" stroke="#A86A12" stroke-width="1.8"/>
+<text x="32" y="40" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="15" font-weight="700" fill="#A86A12" text-anchor="start" xml:space="preserve">Key policy of alias/confidential-poc</text>
+<text x="32" y="60" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="12.5" font-weight="400" fill="#5B6577" text-anchor="start" xml:space="preserve">default deny: anything not allowed below is refused</text>
+<rect x="32" y="76" width="438" height="110" rx="8" fill="#FFFFFF" stroke="#1F4E79" stroke-width="1.6"/>
+<rect x="32" y="76" width="6" height="110" rx="3" fill="#1F4E79"/>
+<text x="48" y="99" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13.5" font-weight="700" fill="#1F4E79" text-anchor="start" xml:space="preserve">1 · KeyAdministrationNoDecrypt</text>
+<text x="48" y="120" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="12.5" font-weight="400" fill="#1F2A44" text-anchor="start" xml:space="preserve">Principal: you (as deployed: account root, AWS-11)</text>
+<text x="48" y="139" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="12.5" font-weight="400" fill="#1F2A44" text-anchor="start" xml:space="preserve">Actions: Create*, Describe*, Put*, Update*,</text>
+<text x="48" y="158" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="12.5" font-weight="400" fill="#1F2A44" text-anchor="start" xml:space="preserve">Get*, List*, ScheduleKeyDeletion, …</text>
+<text x="48" y="177" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="12.5" font-weight="700" fill="#B23A2E" text-anchor="start" xml:space="preserve">NO Decrypt</text>
+<rect x="32" y="200" width="438" height="110" rx="8" fill="#FFFFFF" stroke="#1F4E79" stroke-width="1.6"/>
+<rect x="32" y="200" width="6" height="110" rx="3" fill="#1F4E79"/>
+<text x="48" y="223" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13.5" font-weight="700" fill="#1F4E79" text-anchor="start" xml:space="preserve">2 · DataOwnerEncryptOnly</text>
+<text x="48" y="244" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="12.5" font-weight="400" fill="#1F2A44" text-anchor="start" xml:space="preserve">Principal: you (same as above)</text>
+<text x="48" y="263" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="12.5" font-weight="400" fill="#1F2A44" text-anchor="start" xml:space="preserve">Actions: GenerateDataKey, Encrypt,</text>
+<text x="48" y="282" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="12.5" font-weight="400" fill="#1F2A44" text-anchor="start" xml:space="preserve">DescribeKey</text>
+<text x="48" y="301" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="12.5" font-weight="700" fill="#B23A2E" text-anchor="start" xml:space="preserve">NO Decrypt</text>
+<rect x="32" y="324" width="438" height="129" rx="8" fill="#FFFFFF" stroke="#2E7D4F" stroke-width="1.6"/>
+<rect x="32" y="324" width="6" height="129" rx="3" fill="#2E7D4F"/>
+<text x="48" y="347" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13.5" font-weight="700" fill="#2E7D4F" text-anchor="start" xml:space="preserve">3 · EnclaveDecryptOnlyWithAttestation</text>
+<text x="48" y="368" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="12.5" font-weight="400" fill="#1F2A44" text-anchor="start" xml:space="preserve">Principal: role/confidential-poc-instance</text>
+<text x="48" y="387" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="12.5" font-weight="400" fill="#1F2A44" text-anchor="start" xml:space="preserve">Action: kms:Decrypt only</text>
+<text x="48" y="406" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="12.5" font-weight="400" fill="#1F2A44" text-anchor="start" xml:space="preserve">Condition: StringEqualsIgnoreCase</text>
+<text x="48" y="425" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="12.5" font-weight="400" fill="#1F2A44" text-anchor="start" xml:space="preserve">kms:RecipientAttestation:ImageSha384</text>
+<text x="48" y="444" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="12.5" font-weight="700" fill="#1F2A44" text-anchor="start" xml:space="preserve">= PCR0 (96 hex characters)</text>
+<text x="32" y="566" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="12" font-weight="400" fill="#5B6577" text-anchor="start" xml:space="preserve">Statement 3 exists only after the image is built (first session, step L5).</text>
+<text x="516" y="40" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="15" font-weight="700" fill="#1F2A44" text-anchor="start" xml:space="preserve">Who asks for Decrypt, and what KMS answers</text>
+<rect x="506" y="60" width="378" height="64" rx="8" fill="#FFFFFF" stroke="#B23A2E" stroke-width="1.5"/>
+<text x="522" y="84" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13" font-weight="700" fill="#1F2A44" text-anchor="start" xml:space="preserve">You, on the laptop</text>
+<text x="522" y="106" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="12.5" font-weight="400" fill="#5B6577" text-anchor="start" xml:space="preserve">no statement allows it</text>
+<rect x="782" y="74" width="88" height="28" rx="14" fill="#B23A2E" stroke="#B23A2E" stroke-width="1"/>
+<text x="826" y="93" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="12" font-weight="700" fill="#FFFFFF" text-anchor="middle" xml:space="preserve">DENIED</text>
+<text x="826" y="118" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="11" font-weight="700" fill="#B23A2E" text-anchor="middle" xml:space="preserve">test B2</text>
+<rect x="506" y="134" width="378" height="64" rx="8" fill="#FFFFFF" stroke="#B23A2E" stroke-width="1.5"/>
+<text x="522" y="158" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13" font-weight="700" fill="#1F2A44" text-anchor="start" xml:space="preserve">Instance role, outside the enclave</text>
+<text x="522" y="180" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="12.5" font-weight="400" fill="#5B6577" text-anchor="start" xml:space="preserve">no attestation document</text>
+<rect x="782" y="148" width="88" height="28" rx="14" fill="#B23A2E" stroke="#B23A2E" stroke-width="1"/>
+<text x="826" y="167" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="12" font-weight="700" fill="#FFFFFF" text-anchor="middle" xml:space="preserve">DENIED</text>
+<text x="826" y="192" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="11" font-weight="700" fill="#B23A2E" text-anchor="middle" xml:space="preserve">test B1</text>
+<rect x="506" y="208" width="378" height="64" rx="8" fill="#FFFFFF" stroke="#B23A2E" stroke-width="1.5"/>
+<text x="522" y="232" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13" font-weight="700" fill="#1F2A44" text-anchor="start" xml:space="preserve">Instance role, debug-mode enclave</text>
+<text x="522" y="254" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="12.5" font-weight="400" fill="#5B6577" text-anchor="start" xml:space="preserve">PCR0 = all zeros</text>
+<rect x="782" y="222" width="88" height="28" rx="14" fill="#B23A2E" stroke="#B23A2E" stroke-width="1"/>
+<text x="826" y="241" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="12" font-weight="700" fill="#FFFFFF" text-anchor="middle" xml:space="preserve">DENIED</text>
+<rect x="506" y="282" width="378" height="64" rx="8" fill="#FFFFFF" stroke="#B23A2E" stroke-width="1.5"/>
+<text x="522" y="306" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13" font-weight="700" fill="#1F2A44" text-anchor="start" xml:space="preserve">Instance role, changed code</text>
+<text x="522" y="328" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="12.5" font-weight="400" fill="#5B6577" text-anchor="start" xml:space="preserve">new image, so PCR0 is different</text>
+<rect x="782" y="296" width="88" height="28" rx="14" fill="#B23A2E" stroke="#B23A2E" stroke-width="1"/>
+<text x="826" y="315" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="12" font-weight="700" fill="#FFFFFF" text-anchor="middle" xml:space="preserve">DENIED</text>
+<rect x="506" y="356" width="378" height="64" rx="8" fill="#FFFFFF" stroke="#B23A2E" stroke-width="1.5"/>
+<text x="522" y="380" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13" font-weight="700" fill="#1F2A44" text-anchor="start" xml:space="preserve">Anyone without the role</text>
+<text x="522" y="402" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="12.5" font-weight="400" fill="#5B6577" text-anchor="start" xml:space="preserve">not a principal</text>
+<rect x="782" y="370" width="88" height="28" rx="14" fill="#B23A2E" stroke="#B23A2E" stroke-width="1"/>
+<text x="826" y="389" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="12" font-weight="700" fill="#FFFFFF" text-anchor="middle" xml:space="preserve">DENIED</text>
+<rect x="506" y="430" width="378" height="64" rx="8" fill="#FFFFFF" stroke="#2E7D4F" stroke-width="1.5"/>
+<text x="522" y="454" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13" font-weight="700" fill="#1F2A44" text-anchor="start" xml:space="preserve">Instance role, OUR enclave</text>
+<text x="522" y="476" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="12.5" font-weight="400" fill="#5B6577" text-anchor="start" xml:space="preserve">attestation + PCR0 match</text>
+<rect x="782" y="444" width="88" height="28" rx="14" fill="#2E7D4F" stroke="#2E7D4F" stroke-width="1"/>
+<text x="826" y="463" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="12" font-weight="700" fill="#FFFFFF" text-anchor="middle" xml:space="preserve">ALLOWED</text>
+<text x="826" y="488" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="11" font-weight="700" fill="#2E7D4F" text-anchor="middle" xml:space="preserve">step L6</text>
+<rect x="16" y="590" width="868" height="56" rx="10" fill="#E3EDF7" stroke="#1F4E79" stroke-width="1.4"/>
+<text x="450" y="613" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="12.5" font-weight="400" fill="#1F2A44" text-anchor="middle" xml:space="preserve">As deployed (AWS-11): principal ':root' means the whole account through IAM. IAM admins can manage</text>
+<text x="450" y="633" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="12.5" font-weight="400" fill="#1F2A44" text-anchor="middle" xml:space="preserve">and encrypt, and could rewrite the policy (CloudTrail logs it), but nobody gets Decrypt without the enclave.</text>
+</svg>

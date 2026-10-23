@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="600" viewBox="0 0 900 600">
+<defs><marker id="e6B7787" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#6B7787"/></marker><marker id="s6B7787" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M10,0 L0,5 L10,10 z" fill="#6B7787"/></marker></defs>
+<rect width="900" height="600" fill="#FFFFFF"/>
+<rect x="16" y="14" width="22" height="16" rx="3" fill="#E3EDF7" stroke="#1F4E79" stroke-width="1.5"/>
+<text x="46" y="27" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="12.5" font-weight="400" fill="#5B6577" text-anchor="start" xml:space="preserve">you, on the laptop</text>
+<rect x="226" y="14" width="22" height="16" rx="3" fill="#F1F3F6" stroke="#1F2A44" stroke-width="1.5"/>
+<text x="256" y="27" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="12.5" font-weight="400" fill="#5B6577" text-anchor="start" xml:space="preserve">the instance (parent)</text>
+<rect x="436" y="14" width="22" height="16" rx="3" fill="#E2F2E8" stroke="#2E7D4F" stroke-width="1.5"/>
+<text x="466" y="27" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="12.5" font-weight="400" fill="#5B6577" text-anchor="start" xml:space="preserve">the enclave</text>
+<rect x="646" y="14" width="22" height="16" rx="3" fill="#FCF0D9" stroke="#A86A12" stroke-width="1.5"/>
+<text x="676" y="27" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="12.5" font-weight="400" fill="#5B6577" text-anchor="start" xml:space="preserve">a test</text>
+<text x="16" y="66" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="14" font-weight="400" fill="#1F2A44" text-anchor="start" xml:space="preserve"><tspan font-weight="700" fill="#1F2A44">FIRST SESSION</tspan><tspan font-weight="400" fill="#5B6577">  ·  once, about 1.5–2 hours</tspan></text>
+<rect x="16" y="78" width="88" height="74" rx="8" fill="#E3EDF7" stroke="#1F4E79" stroke-width="1.6"/>
+<text x="60.0" y="100" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="14" font-weight="700" fill="#1F4E79" text-anchor="middle" xml:space="preserve">L1</text>
+<text x="60.0" y="120" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="11.5" font-weight="400" fill="#1F2A44" text-anchor="middle" xml:space="preserve">Upload</text>
+<text x="60.0" y="135" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="11.5" font-weight="400" fill="#1F2A44" text-anchor="middle" xml:space="preserve">code to S3</text>
+<rect x="114" y="78" width="88" height="74" rx="8" fill="#E3EDF7" stroke="#1F4E79" stroke-width="1.6"/>
+<text x="158.0" y="100" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="14" font-weight="700" fill="#1F4E79" text-anchor="middle" xml:space="preserve">L2</text>
+<text x="158.0" y="120" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="11.5" font-weight="400" fill="#1F2A44" text-anchor="middle" xml:space="preserve">Create</text>
+<text x="158.0" y="135" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="11.5" font-weight="400" fill="#1F2A44" text-anchor="middle" xml:space="preserve">the lab</text>
+<rect x="212" y="78" width="88" height="74" rx="8" fill="#E3EDF7" stroke="#1F4E79" stroke-width="1.6"/>
+<text x="256.0" y="100" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="14" font-weight="700" fill="#1F4E79" text-anchor="middle" xml:space="preserve">L3</text>
+<text x="256.0" y="120" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="11.5" font-weight="400" fill="#1F2A44" text-anchor="middle" xml:space="preserve">Check</text>
+<text x="256.0" y="135" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="11.5" font-weight="400" fill="#1F2A44" text-anchor="middle" xml:space="preserve">the parent</text>
+<rect x="310" y="78" width="88" height="74" rx="8" fill="#F1F3F6" stroke="#1F2A44" stroke-width="1.6"/>
+<text x="354.0" y="100" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="14" font-weight="700" fill="#1F2A44" text-anchor="middle" xml:space="preserve">L4</text>
+<text x="354.0" y="120" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="11.5" font-weight="400" fill="#1F2A44" text-anchor="middle" xml:space="preserve">Build image</text>
+<text x="354.0" y="135" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="11.5" font-weight="400" fill="#1F2A44" text-anchor="middle" xml:space="preserve">-&gt; PCR0</text>
+<rect x="408" y="78" width="88" height="74" rx="8" fill="#E3EDF7" stroke="#1F4E79" stroke-width="1.6"/>
+<text x="452.0" y="100" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="14" font-weight="700" fill="#1F4E79" text-anchor="middle" xml:space="preserve">L5</text>
+<text x="452.0" y="120" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="11.5" font-weight="400" fill="#1F2A44" text-anchor="middle" xml:space="preserve">Pin PCR0</text>
+<text x="452.0" y="135" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="11.5" font-weight="400" fill="#1F2A44" text-anchor="middle" xml:space="preserve">you only</text>
+<rect x="506" y="78" width="88" height="74" rx="8" fill="#E2F2E8" stroke="#2E7D4F" stroke-width="1.6"/>
+<text x="550.0" y="100" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="14" font-weight="700" fill="#2E7D4F" text-anchor="middle" xml:space="preserve">L6</text>
+<text x="550.0" y="120" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="11.5" font-weight="400" fill="#1F2A44" text-anchor="middle" xml:space="preserve">Run the job</text>
+<text x="550.0" y="135" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="11.5" font-weight="400" fill="#1F2A44" text-anchor="middle" xml:space="preserve">in enclave</text>
+<rect x="604" y="78" width="88" height="74" rx="8" fill="#FCF0D9" stroke="#A86A12" stroke-width="1.6"/>
+<text x="648.0" y="100" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="14" font-weight="700" fill="#A86A12" text-anchor="middle" xml:space="preserve">L7</text>
+<text x="648.0" y="120" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="11.5" font-weight="400" fill="#1F2A44" text-anchor="middle" xml:space="preserve">Test B1</text>
+<text x="648.0" y="135" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="11.5" font-weight="400" fill="#1F2A44" text-anchor="middle" xml:space="preserve">refused</text>
+<rect x="702" y="78" width="88" height="74" rx="8" fill="#FCF0D9" stroke="#A86A12" stroke-width="1.6"/>
+<text x="746.0" y="100" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="14" font-weight="700" fill="#A86A12" text-anchor="middle" xml:space="preserve">L8</text>
+<text x="746.0" y="120" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="11.5" font-weight="400" fill="#1F2A44" text-anchor="middle" xml:space="preserve">Score</text>
+<text x="746.0" y="135" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="11.5" font-weight="400" fill="#1F2A44" text-anchor="middle" xml:space="preserve">29 / 0 / 0</text>
+<rect x="800" y="78" width="88" height="74" rx="8" fill="#E3EDF7" stroke="#1F4E79" stroke-width="1.6"/>
+<text x="844.0" y="100" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="14" font-weight="700" fill="#1F4E79" text-anchor="middle" xml:space="preserve">L9</text>
+<text x="844.0" y="120" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="11.5" font-weight="400" fill="#1F2A44" text-anchor="middle" xml:space="preserve">Destroy</text>
+<text x="844.0" y="135" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="11.5" font-weight="400" fill="#1F2A44" text-anchor="middle" xml:space="preserve">the lab</text>
+<rect x="405" y="75" width="94" height="80" rx="10" fill="none" stroke="#B23A2E" stroke-width="2.5"/>
+<path d="M 104,115 L 112,115" fill="none" stroke="#6B7787" stroke-width="1.5" marker-end="url(#e6B7787)"/>
+<path d="M 202,115 L 210,115" fill="none" stroke="#6B7787" stroke-width="1.5" marker-end="url(#e6B7787)"/>
+<path d="M 300,115 L 308,115" fill="none" stroke="#6B7787" stroke-width="1.5" marker-end="url(#e6B7787)"/>
+<path d="M 398,115 L 406,115" fill="none" stroke="#6B7787" stroke-width="1.5" marker-end="url(#e6B7787)"/>
+<path d="M 496,115 L 504,115" fill="none" stroke="#6B7787" stroke-width="1.5" marker-end="url(#e6B7787)"/>
+<path d="M 594,115 L 602,115" fill="none" stroke="#6B7787" stroke-width="1.5" marker-end="url(#e6B7787)"/>
+<path d="M 692,115 L 700,115" fill="none" stroke="#6B7787" stroke-width="1.5" marker-end="url(#e6B7787)"/>
+<path d="M 790,115 L 798,115" fill="none" stroke="#6B7787" stroke-width="1.5" marker-end="url(#e6B7787)"/>
+<path d="M 114,166 L 114,174 L 888,174 L 888,166" fill="none" stroke="#A86A12" stroke-width="1.8"/>
+<text x="501.0" y="192" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="12.5" font-weight="700" fill="#A86A12" text-anchor="middle" xml:space="preserve">from L2 to L9 the instance costs $0.204/hour (self-destruct after 4 h)</text>
+<text x="16" y="236" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="14" font-weight="400" fill="#1F2A44" text-anchor="start" xml:space="preserve"><tspan font-weight="700" fill="#1F2A44">EVERY LATER SESSION</tspan><tspan font-weight="400" fill="#5B6577">  ·  today, about 20 minutes</tspan></text>
+<rect x="16" y="248" width="88" height="74" rx="8" fill="#FFFFFF" stroke="#C9D0DA" stroke-width="1.2" stroke-dasharray="4 4"/>
+<text x="60.0" y="290.0" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="12" font-weight="400" fill="#AEB7C4" text-anchor="middle" xml:space="preserve">skip</text>
+<rect x="114" y="248" width="88" height="74" rx="8" fill="#E3EDF7" stroke="#1F4E79" stroke-width="1.6"/>
+<text x="158.0" y="270" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="14" font-weight="700" fill="#1F4E79" text-anchor="middle" xml:space="preserve">L2</text>
+<text x="158.0" y="290" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="11.5" font-weight="400" fill="#1F2A44" text-anchor="middle" xml:space="preserve">Create</text>
+<text x="158.0" y="305" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="11.5" font-weight="400" fill="#1F2A44" text-anchor="middle" xml:space="preserve">the lab</text>
+<rect x="212" y="248" width="88" height="74" rx="8" fill="#E3EDF7" stroke="#1F4E79" stroke-width="1.6"/>
+<text x="256.0" y="270" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="14" font-weight="700" fill="#1F4E79" text-anchor="middle" xml:space="preserve">L3</text>
+<text x="256.0" y="290" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="11.5" font-weight="400" fill="#1F2A44" text-anchor="middle" xml:space="preserve">Check</text>
+<text x="256.0" y="305" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="11.5" font-weight="400" fill="#1F2A44" text-anchor="middle" xml:space="preserve">the parent</text>
+<rect x="310" y="248" width="88" height="74" rx="8" fill="#FFFFFF" stroke="#C9D0DA" stroke-width="1.2" stroke-dasharray="4 4"/>
+<text x="354.0" y="290.0" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="12" font-weight="400" fill="#AEB7C4" text-anchor="middle" xml:space="preserve">skip</text>
+<rect x="408" y="248" width="88" height="74" rx="8" fill="#FFFFFF" stroke="#C9D0DA" stroke-width="1.2" stroke-dasharray="4 4"/>
+<text x="452.0" y="290.0" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="12" font-weight="400" fill="#AEB7C4" text-anchor="middle" xml:space="preserve">skip</text>
+<rect x="506" y="248" width="88" height="74" rx="8" fill="#E2F2E8" stroke="#2E7D4F" stroke-width="1.6"/>
+<text x="550.0" y="270" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="14" font-weight="700" fill="#2E7D4F" text-anchor="middle" xml:space="preserve">L6</text>
+<text x="550.0" y="290" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="11.5" font-weight="400" fill="#1F2A44" text-anchor="middle" xml:space="preserve">Run the job</text>
+<text x="550.0" y="305" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="11.5" font-weight="400" fill="#1F2A44" text-anchor="middle" xml:space="preserve">in enclave</text>
+<rect x="604" y="248" width="88" height="74" rx="8" fill="#FCF0D9" stroke="#A86A12" stroke-width="1.6"/>
+<text x="648.0" y="270" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="14" font-weight="700" fill="#A86A12" text-anchor="middle" xml:space="preserve">L7</text>
+<text x="648.0" y="290" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="11.5" font-weight="400" fill="#1F2A44" text-anchor="middle" xml:space="preserve">Test B1</text>
+<text x="648.0" y="305" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="11.5" font-weight="400" fill="#1F2A44" text-anchor="middle" xml:space="preserve">refused</text>
+<rect x="702" y="248" width="88" height="74" rx="8" fill="#FCF0D9" stroke="#A86A12" stroke-width="1.6"/>
+<text x="746.0" y="270" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="14" font-weight="700" fill="#A86A12" text-anchor="middle" xml:space="preserve">L8</text>
+<text x="746.0" y="290" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="11.5" font-weight="400" fill="#1F2A44" text-anchor="middle" xml:space="preserve">Score</text>
+<text x="746.0" y="305" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="11.5" font-weight="400" fill="#1F2A44" text-anchor="middle" xml:space="preserve">29 / 0 / 0</text>
+<rect x="800" y="248" width="88" height="74" rx="8" fill="#E3EDF7" stroke="#1F4E79" stroke-width="1.6"/>
+<text x="844.0" y="270" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="14" font-weight="700" fill="#1F4E79" text-anchor="middle" xml:space="preserve">L9</text>
+<text x="844.0" y="290" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="11.5" font-weight="400" fill="#1F2A44" text-anchor="middle" xml:space="preserve">Destroy</text>
+<text x="844.0" y="305" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="11.5" font-weight="400" fill="#1F2A44" text-anchor="middle" xml:space="preserve">the lab</text>
+<text x="16" y="362" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="14" font-weight="400" fill="#1F2A44" text-anchor="start" xml:space="preserve"><tspan font-weight="700" fill="#1F2A44">LATER SESSIONS WITH auto_run</tspan><tspan font-weight="400" fill="#5B6577">  ·  proposal, about 5 minutes</tspan></text>
+<rect x="16" y="374" width="190" height="56" rx="8" fill="#E3EDF7" stroke="#1F4E79" stroke-width="1.6"/>
+<text x="111.0" y="398" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13" font-weight="700" fill="#1F4E79" text-anchor="middle" xml:space="preserve">terraform apply</text>
+<text x="111.0" y="418" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="11.5" font-weight="400" fill="#5B6577" text-anchor="middle" xml:space="preserve">you</text>
+<path d="M 208,402 L 220,402" fill="none" stroke="#6B7787" stroke-width="1.5" marker-end="url(#e6B7787)"/>
+<rect x="222" y="374" width="300" height="56" rx="8" fill="#E2F2E8" stroke="#2E7D4F" stroke-width="1.6"/>
+<text x="372.0" y="398" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13" font-weight="700" fill="#2E7D4F" text-anchor="middle" xml:space="preserve">the instance runs the job by itself</text>
+<text x="372.0" y="418" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="11.5" font-weight="400" fill="#5B6577" text-anchor="middle" xml:space="preserve">build skipped: image from S3</text>
+<path d="M 524,402 L 536,402" fill="none" stroke="#6B7787" stroke-width="1.5" marker-end="url(#e6B7787)"/>
+<rect x="538" y="374" width="190" height="56" rx="8" fill="#E3EDF7" stroke="#1F4E79" stroke-width="1.6"/>
+<text x="633.0" y="398" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13" font-weight="700" fill="#1F4E79" text-anchor="middle" xml:space="preserve">report + status in S3</text>
+<text x="633.0" y="418" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="11.5" font-weight="400" fill="#5B6577" text-anchor="middle" xml:space="preserve">you read it</text>
+<path d="M 730,402 L 742,402" fill="none" stroke="#6B7787" stroke-width="1.5" marker-end="url(#e6B7787)"/>
+<rect x="744" y="374" width="150" height="56" rx="8" fill="#E3EDF7" stroke="#1F4E79" stroke-width="1.6"/>
+<text x="819.0" y="398" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13" font-weight="700" fill="#1F4E79" text-anchor="middle" xml:space="preserve">terraform destroy</text>
+<text x="819.0" y="418" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="11.5" font-weight="400" fill="#5B6577" text-anchor="middle" xml:space="preserve">you</text>
+<rect x="16" y="456" width="430" height="128" rx="10" fill="#FBE5E1" stroke="#B23A2E" stroke-width="1.6"/>
+<text x="32" y="482" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="12.5" font-weight="700" fill="#B23A2E" text-anchor="start" xml:space="preserve">Only a trusted admin pins PCR0 (L5)</text>
+<text x="32" y="503" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="12.5" font-weight="400" fill="#1F2A44" text-anchor="start" xml:space="preserve">Pinning PCR0 decides which code may read the data.</text>
+<text x="32" y="524" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="12.5" font-weight="400" fill="#1F2A44" text-anchor="start" xml:space="preserve">The instance must never be able to do it, or it</text>
+<text x="32" y="545" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="12.5" font-weight="400" fill="#1F2A44" text-anchor="start" xml:space="preserve">could give itself the key. Production: CI + review.</text>
+<rect x="454" y="456" width="430" height="128" rx="10" fill="#E2F2E8" stroke="#2E7D4F" stroke-width="1.6"/>
+<text x="470" y="482" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="12.5" font-weight="700" fill="#2E7D4F" text-anchor="start" xml:space="preserve">Built once, stored in S3 (L4)</text>
+<text x="470" y="503" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="12.5" font-weight="400" fill="#1F2A44" text-anchor="start" xml:space="preserve">Same bytes -&gt; same PCR0 -&gt; the key policy never</text>
+<text x="470" y="524" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="12.5" font-weight="400" fill="#1F2A44" text-anchor="start" xml:space="preserve">changes. A changed image gets a new PCR0, and</text>
+<text x="470" y="545" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="12.5" font-weight="400" fill="#1F2A44" text-anchor="start" xml:space="preserve">KMS refuses it: tampering with S3 gains nothing.</text>
+</svg>

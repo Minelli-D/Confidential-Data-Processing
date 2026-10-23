@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="250" viewBox="0 0 900 250">
+<defs></defs>
+<rect width="900" height="250" fill="#FFFFFF"/>
+<text x="16" y="26" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="16" font-weight="400" fill="#1F2A44" text-anchor="start" xml:space="preserve"><tspan font-weight="700" fill="#A86A12">PREPARE</tspan><tspan font-weight="400" fill="#1F2A44">  ·  once per code version</tspan></text>
+<polygon points="16,40 194,40 216,75.0 194,110 16,110" fill="#A86A12"/>
+<text x="120" y="70" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="19" font-weight="700" fill="#FFFFFF" text-anchor="middle" xml:space="preserve">Build</text>
+<text x="120" y="92" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13" font-weight="400" fill="#FFFFFF" text-anchor="middle" xml:space="preserve">the enclave image</text>
+<polygon points="222,40 400,40 422,75.0 400,110 222,110 244,75.0" fill="#A86A12"/>
+<text x="326" y="70" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="19" font-weight="700" fill="#FFFFFF" text-anchor="middle" xml:space="preserve">Measure</text>
+<text x="326" y="92" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13" font-weight="400" fill="#FFFFFF" text-anchor="middle" xml:space="preserve">read its PCR0</text>
+<polygon points="428,40 606,40 628,75.0 606,110 428,110 450,75.0" fill="#A86A12"/>
+<text x="532" y="70" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="19" font-weight="700" fill="#FFFFFF" text-anchor="middle" xml:space="preserve">Pin</text>
+<text x="532" y="92" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13" font-weight="400" fill="#FFFFFF" text-anchor="middle" xml:space="preserve">PCR0 in the key policy</text>
+<rect x="650" y="40" width="234" height="70" rx="8" fill="#F1F3F6" stroke="#6B7787" stroke-width="1"/>
+<text x="767" y="64" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13" font-weight="700" fill="#1F2A44" text-anchor="middle" xml:space="preserve">Say it out loud:</text>
+<text x="767" y="81" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13" font-weight="400" fill="#1F2A44" text-anchor="middle" xml:space="preserve">Build, Measure, Pin —</text>
+<text x="767" y="98" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13" font-weight="400" fill="#1F2A44" text-anchor="middle" xml:space="preserve">In, Prove, Process, Out, Shred.</text>
+<text x="16" y="150" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="16" font-weight="400" fill="#1F2A44" text-anchor="start" xml:space="preserve"><tspan font-weight="700" fill="#1F4E79">RUN</tspan><tspan font-weight="400" fill="#1F2A44">  ·  every job</tspan></text>
+<polygon points="16,164 164,164 186,199.0 164,234 16,234" fill="#1F4E79"/>
+<text x="106" y="194" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="19" font-weight="700" fill="#FFFFFF" text-anchor="middle" xml:space="preserve">In</text>
+<text x="106" y="216" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13" font-weight="400" fill="#FFFFFF" text-anchor="middle" xml:space="preserve">steps 1–2</text>
+<polygon points="192,164 340,164 362,199.0 340,234 192,234 214,199.0" fill="#A86A12"/>
+<text x="282" y="194" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="19" font-weight="700" fill="#FFFFFF" text-anchor="middle" xml:space="preserve">Prove</text>
+<text x="282" y="216" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13" font-weight="400" fill="#FFFFFF" text-anchor="middle" xml:space="preserve">steps 3–4</text>
+<polygon points="368,164 516,164 538,199.0 516,234 368,234 390,199.0" fill="#2E7D4F"/>
+<text x="458" y="194" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="19" font-weight="700" fill="#FFFFFF" text-anchor="middle" xml:space="preserve">Process</text>
+<text x="458" y="216" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13" font-weight="400" fill="#FFFFFF" text-anchor="middle" xml:space="preserve">step 5</text>
+<polygon points="544,164 692,164 714,199.0 692,234 544,234 566,199.0" fill="#1F4E79"/>
+<text x="634" y="194" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="19" font-weight="700" fill="#FFFFFF" text-anchor="middle" xml:space="preserve">Out</text>
+<text x="634" y="216" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13" font-weight="400" fill="#FFFFFF" text-anchor="middle" xml:space="preserve">steps 6–7</text>
+<polygon points="720,164 868,164 890,199.0 868,234 720,234 742,199.0" fill="#6B7787"/>
+<text x="810" y="194" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="19" font-weight="700" fill="#FFFFFF" text-anchor="middle" xml:space="preserve">Shred</text>
+<text x="810" y="216" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13" font-weight="400" fill="#FFFFFF" text-anchor="middle" xml:space="preserve">step 8</text>
+</svg>

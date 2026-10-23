@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="850" viewBox="0 0 900 850">
+<defs><marker id="e1F4E79" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#1F4E79"/></marker><marker id="s1F4E79" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M10,0 L0,5 L10,10 z" fill="#1F4E79"/></marker><marker id="e6B7787" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#6B7787"/></marker><marker id="s6B7787" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M10,0 L0,5 L10,10 z" fill="#6B7787"/></marker><marker id="eA86A12" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#A86A12"/></marker><marker id="sA86A12" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M10,0 L0,5 L10,10 z" fill="#A86A12"/></marker></defs>
+<rect width="900" height="850" fill="#FFFFFF"/>
+<rect x="16" y="16" width="868" height="76" rx="10" fill="#FFFFFF" stroke="#1F2A44" stroke-width="1.8"/>
+<text x="32" y="42" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="16" font-weight="700" fill="#1F2A44" text-anchor="start" xml:space="preserve">Your laptop</text>
+<text x="140" y="42" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13.5" font-weight="400" fill="#1F2A44" text-anchor="start" xml:space="preserve">terraform (base, lab)  ·  encrypt_input.py  ·  aws ssm start-session  ·  score the report</text>
+<text x="32" y="72" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="12.5" font-weight="400" fill="#5B6577" text-anchor="start" xml:space="preserve">needs: Terraform · AWS CLI v2 · Session Manager plugin · Python 3 + cryptography</text>
+<rect x="16" y="120" width="868" height="714" rx="14" fill="none" stroke="#1F2A44" stroke-width="1.8"/>
+<text x="32" y="824" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13" font-weight="700" fill="#1F2A44" text-anchor="start" xml:space="preserve">AWS ACCOUNT  ·  eu-north-1 (Stockholm)</text>
+<rect x="36" y="160" width="828" height="262" rx="12" fill="#F7F9FC" stroke="#1F4E79" stroke-width="1.5" stroke-dasharray="7 5"/>
+<text x="262" y="412" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13" font-weight="700" fill="#1F4E79" text-anchor="start" xml:space="preserve">base  ·  kept between sessions  ·  about $1/month</text>
+<rect x="56" y="196" width="384" height="194" rx="8" fill="#FCF0D9" stroke="#A86A12" stroke-width="1.8"/>
+<text x="248" y="222" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="15" font-weight="700" fill="#A86A12" text-anchor="middle" xml:space="preserve">KMS key  ·  alias/confidential-poc</text>
+<text x="248" y="242" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="12.5" font-weight="400" fill="#5B6577" text-anchor="middle" xml:space="preserve">one key · never rotated · protected from destroy</text>
+<circle cx="80" cy="269" r="6" fill="#2E7D4F"/>
+<text x="94" y="274" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13.5" font-weight="400" fill="#1F2A44" text-anchor="start" xml:space="preserve"><tspan font-weight="700" fill="#1F2A44">Instance role: </tspan><tspan font-weight="400" fill="#1F2A44">Decrypt ONLY with PCR0</tspan></text>
+<circle cx="80" cy="301" r="6" fill="#1F4E79"/>
+<text x="94" y="306" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13.5" font-weight="400" fill="#1F2A44" text-anchor="start" xml:space="preserve"><tspan font-weight="700" fill="#1F2A44">You: </tspan><tspan font-weight="400" fill="#1F2A44">manage + encrypt · no Decrypt</tspan></text>
+<circle cx="80" cy="333" r="6" fill="#B23A2E"/>
+<text x="94" y="338" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13.5" font-weight="400" fill="#1F2A44" text-anchor="start" xml:space="preserve"><tspan font-weight="700" fill="#1F2A44">Anyone else: </tspan><tspan font-weight="400" fill="#1F2A44">nothing (IAM can't grant it)</tspan></text>
+<rect x="480" y="196" width="364" height="134" rx="8" fill="#F1F3F6" stroke="#6B7787" stroke-width="1.8"/>
+<text x="662" y="222" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="14" font-weight="700" fill="#1F2A44" text-anchor="middle" xml:space="preserve">S3 bucket  ·  private  ·  TLS only  ·  SSE-S3</text>
+<text x="500" y="250" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13" font-weight="400" fill="#1F2A44" text-anchor="start" xml:space="preserve"><tspan font-weight="700" fill="#1F2A44">input/</tspan><tspan font-weight="400" fill="#1F2A44">  envelope (encrypted)</tspan></text>
+<text x="500" y="274" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13" font-weight="400" fill="#1F2A44" text-anchor="start" xml:space="preserve"><tspan font-weight="700" fill="#1F2A44">enclave/</tspan><tspan font-weight="400" fill="#1F2A44">  source · image (EIF) · PCRs</tspan></text>
+<text x="500" y="298" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13" font-weight="400" fill="#1F2A44" text-anchor="start" xml:space="preserve"><tspan font-weight="700" fill="#1F2A44">reports/</tspan><tspan font-weight="400" fill="#1F2A44">  report (in clear, POC)</tspan></text>
+<rect x="480" y="344" width="170" height="40" rx="20" fill="#FFFFFF" stroke="#1F2A44" stroke-width="1.3"/>
+<text x="565" y="369" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="12.5" font-weight="700" fill="#1F2A44" text-anchor="middle" xml:space="preserve">IAM role + profile</text>
+<rect x="694" y="344" width="150" height="40" rx="20" fill="#FFFFFF" stroke="#1F2A44" stroke-width="1.3"/>
+<text x="769" y="369" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="12.5" font-weight="700" fill="#1F2A44" text-anchor="middle" xml:space="preserve">Budget alert $5</text>
+<rect x="36" y="450" width="828" height="356" rx="12" fill="#FBFCFD" stroke="#6B7787" stroke-width="1.5" stroke-dasharray="7 5"/>
+<text x="52" y="796" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13" font-weight="700" fill="#6B7787" text-anchor="start" xml:space="preserve">lab  ·  created per session, then destroyed  ·  VPC + 1 public subnet</text>
+<rect x="56" y="490" width="788" height="250" rx="8" fill="#FFFFFF" stroke="#1F2A44" stroke-width="1.8"/>
+<text x="450" y="726" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13.5" font-weight="700" fill="#1F2A44" text-anchor="middle" xml:space="preserve">EC2 m6i.xlarge  ·  On-Demand  ·  enclaves on  ·  IMDSv2  ·  self-destruct after 4 h</text>
+<rect x="76" y="528" width="334" height="160" rx="8" fill="#E2F2E8" stroke="#2E7D4F" stroke-width="2.2"/>
+<text x="243" y="554" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13" font-weight="700" fill="#2E7D4F" text-anchor="middle" xml:space="preserve">Nitro Enclave  (2 vCPU · 4 GiB)</text>
+<text x="243" y="574" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13" font-weight="400" fill="#1F2A44" text-anchor="middle" xml:space="preserve">kmstool → attestation + Decrypt</text>
+<text x="243" y="594" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13" font-weight="400" fill="#1F2A44" text-anchor="middle" xml:space="preserve">AES-GCM decrypt in memory</text>
+<text x="243" y="614" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13" font-weight="400" fill="#1F2A44" text-anchor="middle" xml:space="preserve">Mode A → report</text>
+<text x="243" y="676" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13.5" font-weight="700" fill="#2E7D4F" text-anchor="middle" xml:space="preserve">plaintext exists only here</text>
+<rect x="500" y="528" width="324" height="160" rx="8" fill="#FFFFFF" stroke="#1F2A44" stroke-width="1.6"/>
+<text x="662" y="554" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13" font-weight="700" fill="#1F2A44" text-anchor="middle" xml:space="preserve">Parent  (untrusted courier)</text>
+<text x="662" y="574" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13" font-weight="400" fill="#1F2A44" text-anchor="middle" xml:space="preserve">downloads envelope + image</text>
+<text x="662" y="594" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13" font-weight="400" fill="#1F2A44" text-anchor="middle" xml:space="preserve">runs vsock-proxy → KMS</text>
+<text x="662" y="614" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13" font-weight="400" fill="#1F2A44" text-anchor="middle" xml:space="preserve">uploads the report</text>
+<text x="662" y="676" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13.5" font-weight="700" fill="#6B7787" text-anchor="middle" xml:space="preserve">sees ciphertext only</text>
+<path d="M 412,606 L 498,606" fill="none" stroke="#6B7787" stroke-width="2.2" marker-end="url(#e6B7787)" marker-start="url(#s6B7787)"/>
+<text x="455" y="596" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="12" font-weight="700" fill="#5B6577" text-anchor="middle" xml:space="preserve">vsock</text>
+<text x="450" y="770" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="12.5" font-weight="400" fill="#5B6577" text-anchor="middle" xml:space="preserve">security group: 0 inbound rules  ·  outbound 443, plus 80 for AL2 package mirrors (AWS-12)</text>
+<path d="M 238,92 L 238,194" fill="none" stroke="#A86A12" stroke-width="2.2" marker-end="url(#eA86A12)"/>
+<text x="250" y="112" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="12.5" font-weight="700" fill="#A86A12" text-anchor="start" xml:space="preserve">2a · GenerateDataKey</text>
+<path d="M 662,92 L 662,194" fill="none" stroke="#6B7787" stroke-width="2.2" marker-end="url(#e6B7787)"/>
+<text x="674" y="112" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="12.5" font-weight="700" fill="#1F2A44" text-anchor="start" xml:space="preserve">2d · upload envelope (TLS)</text>
+<path d="M 872,92 L 872,606 L 846,606" fill="none" stroke="#1F4E79" stroke-width="2" marker-end="url(#e1F4E79)"/>
+<text x="860" y="440" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="12.5" font-weight="700" fill="#1F4E79" text-anchor="end" xml:space="preserve">SSM session · no inbound port</text>
+<path d="M 243,526 L 243,392" fill="none" stroke="#A86A12" stroke-width="2.2" marker-end="url(#eA86A12)" marker-start="url(#sA86A12)"/>
+<text x="255" y="440" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="12.5" font-weight="700" fill="#A86A12" text-anchor="start" xml:space="preserve">attestation → Decrypt (via vsock-proxy)</text>
+<path d="M 672,526 L 672,332" fill="none" stroke="#6B7787" stroke-width="2.2" marker-end="url(#e6B7787)" marker-start="url(#s6B7787)"/>
+<text x="684" y="474" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="12.5" font-weight="700" fill="#1F2A44" text-anchor="start" xml:space="preserve">download · upload</text>
+</svg>

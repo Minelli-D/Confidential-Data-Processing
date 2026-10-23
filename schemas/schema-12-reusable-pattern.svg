@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="700" viewBox="0 0 900 700">
+<defs><marker id="e1F4E79" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#1F4E79"/></marker><marker id="s1F4E79" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M10,0 L0,5 L10,10 z" fill="#1F4E79"/></marker><marker id="e6B7787" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#6B7787"/></marker><marker id="s6B7787" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M10,0 L0,5 L10,10 z" fill="#6B7787"/></marker></defs>
+<rect width="900" height="700" fill="#FFFFFF"/>
+<rect x="16" y="12" width="868" height="40" rx="20" fill="#1F2A44" stroke="#1F2A44" stroke-width="1"/>
+<text x="450" y="38" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="15" font-weight="700" fill="#FFFFFF" text-anchor="middle" xml:space="preserve">The reusable pattern: 8 stages for any confidential processing job</text>
+<rect x="10" y="70" width="205" height="108" rx="10" fill="#FFFFFF" stroke="#1F2A44" stroke-width="1.8"/>
+<circle cx="32" cy="94" r="13" fill="#1F2A44" stroke="#FFFFFF" stroke-width="2"/>
+<text x="32" y="99" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="14" font-weight="700" fill="#FFFFFF" text-anchor="middle" xml:space="preserve">1</text>
+<text x="52" y="100" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13.5" font-weight="700" fill="#1F2A44" text-anchor="start" xml:space="preserve">Classify + threat model</text>
+<text x="28" y="132" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="12.5" font-weight="400" fill="#1F2A44" text-anchor="start" xml:space="preserve">what is sensitive?</text>
+<text x="28" y="151" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="12.5" font-weight="400" fill="#1F2A44" text-anchor="start" xml:space="preserve">who must never see it?</text>
+<path d="M 217,124.0 L 233,124.0" fill="none" stroke="#6B7787" stroke-width="2" marker-end="url(#e6B7787)"/>
+<rect x="235" y="70" width="205" height="108" rx="10" fill="#FCF0D9" stroke="#A86A12" stroke-width="1.8"/>
+<circle cx="257" cy="94" r="13" fill="#A86A12" stroke="#FFFFFF" stroke-width="2"/>
+<text x="257" y="99" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="14" font-weight="700" fill="#FFFFFF" text-anchor="middle" xml:space="preserve">2</text>
+<text x="277" y="100" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13.5" font-weight="700" fill="#1F2A44" text-anchor="start" xml:space="preserve">Design the key</text>
+<text x="253" y="132" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="12.5" font-weight="400" fill="#1F2A44" text-anchor="start" xml:space="preserve">customer managed key;</text>
+<text x="253" y="151" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="12.5" font-weight="400" fill="#1F2A44" text-anchor="start" xml:space="preserve">Decrypt only with PCR0</text>
+<path d="M 442,124.0 L 458,124.0" fill="none" stroke="#6B7787" stroke-width="2" marker-end="url(#e6B7787)"/>
+<rect x="460" y="70" width="205" height="108" rx="10" fill="#E3EDF7" stroke="#1F4E79" stroke-width="1.8"/>
+<circle cx="482" cy="94" r="13" fill="#1F4E79" stroke="#FFFFFF" stroke-width="2"/>
+<text x="482" y="99" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="14" font-weight="700" fill="#FFFFFF" text-anchor="middle" xml:space="preserve">3</text>
+<text x="502" y="100" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13.5" font-weight="700" fill="#1F2A44" text-anchor="start" xml:space="preserve">Seal at the source</text>
+<text x="478" y="132" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="12.5" font-weight="400" fill="#1F2A44" text-anchor="start" xml:space="preserve">envelope: data key +</text>
+<text x="478" y="151" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="12.5" font-weight="400" fill="#1F2A44" text-anchor="start" xml:space="preserve">AES-GCM + aad</text>
+<path d="M 667,124.0 L 683,124.0" fill="none" stroke="#6B7787" stroke-width="2" marker-end="url(#e6B7787)"/>
+<rect x="685" y="70" width="205" height="108" rx="10" fill="#F1F3F6" stroke="#6B7787" stroke-width="1.8"/>
+<circle cx="707" cy="94" r="13" fill="#6B7787" stroke="#FFFFFF" stroke-width="2"/>
+<text x="707" y="99" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="14" font-weight="700" fill="#FFFFFF" text-anchor="middle" xml:space="preserve">4</text>
+<text x="727" y="100" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13.5" font-weight="700" fill="#1F2A44" text-anchor="start" xml:space="preserve">Land in storage</text>
+<text x="703" y="132" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="12.5" font-weight="400" fill="#1F2A44" text-anchor="start" xml:space="preserve">private S3, TLS only,</text>
+<text x="703" y="151" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="12.5" font-weight="400" fill="#1F2A44" text-anchor="start" xml:space="preserve">SSE at rest (layer 2)</text>
+<rect x="10" y="208" width="205" height="108" rx="10" fill="#E2F2E8" stroke="#2E7D4F" stroke-width="1.8"/>
+<circle cx="32" cy="232" r="13" fill="#2E7D4F" stroke="#FFFFFF" stroke-width="2"/>
+<text x="32" y="237" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="14" font-weight="700" fill="#FFFFFF" text-anchor="middle" xml:space="preserve">5</text>
+<text x="52" y="238" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13.5" font-weight="700" fill="#1F2A44" text-anchor="start" xml:space="preserve">Process in the enclave</text>
+<text x="28" y="270" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="12.5" font-weight="400" fill="#1F2A44" text-anchor="start" xml:space="preserve">pure functions = PCR0;</text>
+<text x="28" y="289" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="12.5" font-weight="400" fill="#1F2A44" text-anchor="start" xml:space="preserve">no disk, no network</text>
+<path d="M 217,262.0 L 233,262.0" fill="none" stroke="#6B7787" stroke-width="2" marker-end="url(#e6B7787)"/>
+<rect x="235" y="208" width="205" height="108" rx="10" fill="#FBE5E1" stroke="#B23A2E" stroke-width="1.8"/>
+<circle cx="257" cy="232" r="13" fill="#B23A2E" stroke="#FFFFFF" stroke-width="2"/>
+<text x="257" y="237" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="14" font-weight="700" fill="#FFFFFF" text-anchor="middle" xml:space="preserve">6</text>
+<text x="277" y="238" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13.5" font-weight="700" fill="#1F2A44" text-anchor="start" xml:space="preserve">Classify the outputs</text>
+<text x="253" y="270" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="12.5" font-weight="400" fill="#1F2A44" text-anchor="start" xml:space="preserve">personal data: sealed;</text>
+<text x="253" y="289" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="12.5" font-weight="400" fill="#1F2A44" text-anchor="start" xml:space="preserve">status: in clear</text>
+<path d="M 442,262.0 L 458,262.0" fill="none" stroke="#6B7787" stroke-width="2" marker-end="url(#e6B7787)"/>
+<rect x="460" y="208" width="205" height="108" rx="10" fill="#E3EDF7" stroke="#1F4E79" stroke-width="1.8"/>
+<circle cx="482" cy="232" r="13" fill="#1F4E79" stroke="#FFFFFF" stroke-width="2"/>
+<text x="482" y="237" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="14" font-weight="700" fill="#FFFFFF" text-anchor="middle" xml:space="preserve">7</text>
+<text x="502" y="238" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13.5" font-weight="700" fill="#1F2A44" text-anchor="start" xml:space="preserve">Deliver to the owner</text>
+<text x="478" y="270" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="12.5" font-weight="400" fill="#1F2A44" text-anchor="start" xml:space="preserve">owner decrypts in its</text>
+<text x="478" y="289" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="12.5" font-weight="400" fill="#1F2A44" text-anchor="start" xml:space="preserve">own environment</text>
+<path d="M 667,262.0 L 683,262.0" fill="none" stroke="#6B7787" stroke-width="2" marker-end="url(#e6B7787)"/>
+<rect x="685" y="208" width="205" height="108" rx="10" fill="#F1F3F6" stroke="#6B7787" stroke-width="1.8"/>
+<circle cx="707" cy="232" r="13" fill="#6B7787" stroke="#FFFFFF" stroke-width="2"/>
+<text x="707" y="237" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="14" font-weight="700" fill="#FFFFFF" text-anchor="middle" xml:space="preserve">8</text>
+<text x="727" y="238" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13.5" font-weight="700" fill="#1F2A44" text-anchor="start" xml:space="preserve">Tear down + shred</text>
+<text x="703" y="270" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="12.5" font-weight="400" fill="#1F2A44" text-anchor="start" xml:space="preserve">destroy compute;</text>
+<text x="703" y="289" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="12.5" font-weight="400" fill="#1F2A44" text-anchor="start" xml:space="preserve">delete key = shred</text>
+<path d="M 787.5,180 L 787.5,196 L 112,196 L 112,206" fill="none" stroke="#6B7787" stroke-width="2" marker-end="url(#e6B7787)"/>
+<text x="16" y="372" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="14" font-weight="700" fill="#1F4E79" text-anchor="start" xml:space="preserve">Data sources: each one seals BEFORE anything reaches shared storage (stage 3)</text>
+<rect x="10" y="386" width="280" height="132" rx="10" fill="#E3EDF7" stroke="#1F4E79" stroke-width="1.6"/>
+<text x="26" y="410" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="14" font-weight="700" fill="#1F4E79" text-anchor="start" xml:space="preserve">Files</text>
+<text x="26" y="434" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="12.5" font-weight="400" fill="#1F2A44" text-anchor="start" xml:space="preserve">CSV / JSON exports</text>
+<text x="26" y="453" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="12.5" font-weight="400" fill="#1F2A44" text-anchor="start" xml:space="preserve">sealed on the producer</text>
+<text x="26" y="472" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="12.5" font-weight="400" fill="#1F2A44" text-anchor="start" xml:space="preserve">machine (encrypt_input)</text>
+<text x="26" y="491" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="12.5" font-weight="400" fill="#1F2A44" text-anchor="start" xml:space="preserve">then uploaded</text>
+<path d="M 150,518 L 150,548" fill="none" stroke="#1F4E79" stroke-width="2" marker-end="url(#e1F4E79)"/>
+<rect x="305" y="386" width="280" height="132" rx="10" fill="#E3EDF7" stroke="#1F4E79" stroke-width="1.6"/>
+<text x="321" y="410" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="14" font-weight="700" fill="#1F4E79" text-anchor="start" xml:space="preserve">Database</text>
+<text x="321" y="434" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="12.5" font-weight="400" fill="#1F2A44" text-anchor="start" xml:space="preserve">an extraction job inside</text>
+<text x="321" y="453" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="12.5" font-weight="400" fill="#1F2A44" text-anchor="start" xml:space="preserve">the owner's network reads</text>
+<text x="321" y="472" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="12.5" font-weight="400" fill="#1F2A44" text-anchor="start" xml:space="preserve">rows, seals each batch,</text>
+<text x="321" y="491" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="12.5" font-weight="400" fill="#1F2A44" text-anchor="start" xml:space="preserve">uploads envelopes only</text>
+<path d="M 445,518 L 445,548" fill="none" stroke="#1F4E79" stroke-width="2" marker-end="url(#e1F4E79)"/>
+<rect x="600" y="386" width="280" height="132" rx="10" fill="#E3EDF7" stroke="#1F4E79" stroke-width="1.6"/>
+<text x="616" y="410" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="14" font-weight="700" fill="#1F4E79" text-anchor="start" xml:space="preserve">API / stream</text>
+<text x="616" y="434" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="12.5" font-weight="400" fill="#1F2A44" text-anchor="start" xml:space="preserve">the producer seals each</text>
+<text x="616" y="453" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="12.5" font-weight="400" fill="#1F2A44" text-anchor="start" xml:space="preserve">message or batch; one</text>
+<text x="616" y="472" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="12.5" font-weight="400" fill="#1F2A44" text-anchor="start" xml:space="preserve">data key per batch</text>
+<text x="616" y="491" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="12.5" font-weight="400" fill="#1F2A44" text-anchor="start" xml:space="preserve">-&gt; queue or S3</text>
+<path d="M 740,518 L 740,548" fill="none" stroke="#1F4E79" stroke-width="2" marker-end="url(#e1F4E79)"/>
+<rect x="10" y="552" width="870" height="48" rx="10" fill="#FFFFFF" stroke="#1F4E79" stroke-width="1.6"/>
+<text x="445" y="582" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13.5" font-weight="700" fill="#1F4E79" text-anchor="middle" xml:space="preserve">plaintext never lands in shared storage: only envelopes travel</text>
+<rect x="10" y="616" width="870" height="70" rx="10" fill="#E2F2E8" stroke="#2E7D4F" stroke-width="1.6"/>
+<text x="445" y="642" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13" font-weight="400" fill="#1F2A44" text-anchor="middle" xml:space="preserve">To reuse it for another case, swap only the formulas module (payroll_rules -&gt; your rules) and its</text>
+<text x="445" y="664" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13" font-weight="400" fill="#1F2A44" text-anchor="middle" xml:space="preserve">rules_version. Keys, envelope, enclave app, Terraform and procedures stay the same.</text>
+</svg>

@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="790" viewBox="0 0 900 790">
+<defs><marker id="e1F2A44" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#1F2A44"/></marker><marker id="s1F2A44" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M10,0 L0,5 L10,10 z" fill="#1F2A44"/></marker><marker id="e2E7D4F" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#2E7D4F"/></marker><marker id="s2E7D4F" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M10,0 L0,5 L10,10 z" fill="#2E7D4F"/></marker><marker id="eA86A12" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#A86A12"/></marker><marker id="sA86A12" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M10,0 L0,5 L10,10 z" fill="#A86A12"/></marker><marker id="eB23A2E" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#B23A2E"/></marker><marker id="sB23A2E" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M10,0 L0,5 L10,10 z" fill="#B23A2E"/></marker></defs>
+<rect width="900" height="790" fill="#FFFFFF"/>
+<rect x="16" y="12" width="268" height="62" rx="10" fill="#1F2A44" stroke="#1F2A44" stroke-width="1"/>
+<text x="150" y="39" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="18" font-weight="700" fill="#FFFFFF" text-anchor="middle" xml:space="preserve">A · WHY</text>
+<text x="150" y="61" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13.5" font-weight="400" fill="#FFFFFF" text-anchor="middle" xml:space="preserve">who we defend against</text>
+<rect x="316" y="12" width="268" height="62" rx="10" fill="#2E7D4F" stroke="#2E7D4F" stroke-width="1"/>
+<text x="450" y="39" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="18" font-weight="700" fill="#FFFFFF" text-anchor="middle" xml:space="preserve">B · WHERE</text>
+<text x="450" y="61" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13.5" font-weight="400" fill="#FFFFFF" text-anchor="middle" xml:space="preserve">data stays safe while in use</text>
+<rect x="616" y="12" width="268" height="62" rx="10" fill="#A86A12" stroke="#A86A12" stroke-width="1"/>
+<text x="750" y="39" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="18" font-weight="700" fill="#FFFFFF" text-anchor="middle" xml:space="preserve">C · HOW</text>
+<text x="750" y="61" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13.5" font-weight="400" fill="#FFFFFF" text-anchor="middle" xml:space="preserve">keys reach only verified code</text>
+<rect x="16" y="92" width="268" height="118" rx="8" fill="#FFFFFF" stroke="#6B7787" stroke-width="1.5"/>
+<rect x="16" y="92" width="7" height="118" rx="3" fill="#1F2A44"/>
+<text x="34" y="119" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="15" font-weight="700" fill="#1F2A44" text-anchor="start" xml:space="preserve">3.1 Threat model</text>
+<text x="34" y="143" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13.5" font-weight="400" fill="#1F2A44" text-anchor="start" xml:space="preserve">Who must never see the data?</text>
+<text x="34" y="162" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13.5" font-weight="400" fill="#1F2A44" text-anchor="start" xml:space="preserve">Outsiders and our own admins.</text>
+<text x="34" y="181" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13.5" font-weight="400" fill="#1F2A44" text-anchor="start" xml:space="preserve">We still trust AWS hardware.</text>
+<rect x="16" y="238" width="268" height="118" rx="8" fill="#FFFFFF" stroke="#6B7787" stroke-width="1.5"/>
+<rect x="16" y="238" width="7" height="118" rx="3" fill="#1F2A44"/>
+<text x="34" y="265" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="15" font-weight="700" fill="#1F2A44" text-anchor="start" xml:space="preserve">3.2 Shared responsibility</text>
+<text x="34" y="289" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13.5" font-weight="400" fill="#1F2A44" text-anchor="start" xml:space="preserve">AWS secures the cloud itself.</text>
+<text x="34" y="308" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13.5" font-weight="400" fill="#1F2A44" text-anchor="start" xml:space="preserve">We secure what we put in it:</text>
+<text x="34" y="327" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13.5" font-weight="400" fill="#1F2A44" text-anchor="start" xml:space="preserve">keys, IAM, network, code.</text>
+<rect x="316" y="92" width="268" height="118" rx="8" fill="#FFFFFF" stroke="#2E7D4F" stroke-width="1.5"/>
+<rect x="316" y="92" width="7" height="118" rx="3" fill="#2E7D4F"/>
+<text x="334" y="119" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="15" font-weight="700" fill="#2E7D4F" text-anchor="start" xml:space="preserve">3.3 Three states of data</text>
+<text x="334" y="143" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13.5" font-weight="400" fill="#1F2A44" text-anchor="start" xml:space="preserve">At rest and in transit: easy.</text>
+<text x="334" y="162" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13.5" font-weight="400" fill="#1F2A44" text-anchor="start" xml:space="preserve">In use is the hard one: the CPU</text>
+<text x="334" y="181" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13.5" font-weight="400" fill="#1F2A44" text-anchor="start" xml:space="preserve">needs plaintext to compute.</text>
+<rect x="316" y="238" width="268" height="118" rx="8" fill="#FFFFFF" stroke="#2E7D4F" stroke-width="1.5"/>
+<rect x="316" y="238" width="7" height="118" rx="3" fill="#2E7D4F"/>
+<text x="334" y="265" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="15" font-weight="700" fill="#2E7D4F" text-anchor="start" xml:space="preserve">3.4 TEE</text>
+<text x="334" y="289" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13.5" font-weight="400" fill="#1F2A44" text-anchor="start" xml:space="preserve">An isolated processing area</text>
+<text x="334" y="308" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13.5" font-weight="400" fill="#1F2A44" text-anchor="start" xml:space="preserve">that even the host OS and its</text>
+<text x="334" y="327" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13.5" font-weight="400" fill="#1F2A44" text-anchor="start" xml:space="preserve">admins cannot read.</text>
+<rect x="316" y="384" width="268" height="118" rx="8" fill="#FFFFFF" stroke="#2E7D4F" stroke-width="1.5"/>
+<rect x="316" y="384" width="7" height="118" rx="3" fill="#2E7D4F"/>
+<text x="334" y="411" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="15" font-weight="700" fill="#2E7D4F" text-anchor="start" xml:space="preserve">3.5 Nitro Enclaves</text>
+<text x="334" y="435" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13.5" font-weight="400" fill="#1F2A44" text-anchor="start" xml:space="preserve">AWS's TEE: an isolated VM inside</text>
+<text x="334" y="454" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13.5" font-weight="400" fill="#1F2A44" text-anchor="start" xml:space="preserve">an EC2 instance. No disk, no</text>
+<text x="334" y="473" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13.5" font-weight="400" fill="#1F2A44" text-anchor="start" xml:space="preserve">network, no SSH. Only vsock.</text>
+<rect x="316" y="530" width="268" height="118" rx="8" fill="#FBE5E1" stroke="#B23A2E" stroke-width="1.5"/>
+<rect x="316" y="530" width="7" height="118" rx="3" fill="#B23A2E"/>
+<text x="334" y="557" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="15" font-weight="700" fill="#B23A2E" text-anchor="start" xml:space="preserve">3.6 Debug mode: the trap</text>
+<text x="334" y="581" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13.5" font-weight="400" fill="#1F2A44" text-anchor="start" xml:space="preserve">Debug opens a console and breaks</text>
+<text x="334" y="600" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13.5" font-weight="400" fill="#1F2A44" text-anchor="start" xml:space="preserve">isolation. Its PCRs are all zero:</text>
+<text x="334" y="619" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13.5" font-weight="400" fill="#1F2A44" text-anchor="start" xml:space="preserve">never accept them in production.</text>
+<rect x="616" y="92" width="268" height="118" rx="8" fill="#FFFFFF" stroke="#A86A12" stroke-width="1.5"/>
+<rect x="616" y="92" width="7" height="118" rx="3" fill="#A86A12"/>
+<text x="634" y="119" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="15" font-weight="700" fill="#A86A12" text-anchor="start" xml:space="preserve">3.7 Attestation and PCRs</text>
+<text x="634" y="143" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13.5" font-weight="400" fill="#1F2A44" text-anchor="start" xml:space="preserve">The enclave proves its code with</text>
+<text x="634" y="162" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13.5" font-weight="400" fill="#1F2A44" text-anchor="start" xml:space="preserve">signed hashes. PCR0 = the whole</text>
+<text x="634" y="181" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13.5" font-weight="400" fill="#1F2A44" text-anchor="start" xml:space="preserve">image. New code → new PCR0.</text>
+<rect x="616" y="238" width="268" height="118" rx="8" fill="#FFFFFF" stroke="#A86A12" stroke-width="1.5"/>
+<rect x="616" y="238" width="7" height="118" rx="3" fill="#A86A12"/>
+<text x="634" y="265" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="15" font-weight="700" fill="#A86A12" text-anchor="start" xml:space="preserve">3.8 KMS attestation policy</text>
+<text x="634" y="289" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13.5" font-weight="400" fill="#1F2A44" text-anchor="start" xml:space="preserve">KMS releases a key only if the</text>
+<text x="634" y="308" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13.5" font-weight="400" fill="#1F2A44" text-anchor="start" xml:space="preserve">attestation shows the approved</text>
+<text x="634" y="327" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13.5" font-weight="400" fill="#1F2A44" text-anchor="start" xml:space="preserve">PCR0. Not to people or pods.</text>
+<rect x="616" y="384" width="268" height="118" rx="8" fill="#FFFFFF" stroke="#A86A12" stroke-width="1.5"/>
+<rect x="616" y="384" width="7" height="118" rx="3" fill="#A86A12"/>
+<text x="634" y="411" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="15" font-weight="700" fill="#A86A12" text-anchor="start" xml:space="preserve">3.9 Envelope encryption</text>
+<text x="634" y="435" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13.5" font-weight="400" fill="#1F2A44" text-anchor="start" xml:space="preserve">KMS hands out a small data key;</text>
+<text x="634" y="454" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13.5" font-weight="400" fill="#1F2A44" text-anchor="start" xml:space="preserve">data is encrypted locally. The</text>
+<text x="634" y="473" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13.5" font-weight="400" fill="#1F2A44" text-anchor="start" xml:space="preserve">KMS key never leaves KMS.</text>
+<rect x="616" y="530" width="268" height="118" rx="8" fill="#FFFFFF" stroke="#A86A12" stroke-width="1.5"/>
+<rect x="616" y="530" width="7" height="118" rx="3" fill="#A86A12"/>
+<text x="634" y="557" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="15" font-weight="700" fill="#A86A12" text-anchor="start" xml:space="preserve">3.10 Crypto-shredding</text>
+<text x="634" y="581" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13.5" font-weight="400" fill="#1F2A44" text-anchor="start" xml:space="preserve">One fresh data key per job,</text>
+<text x="634" y="600" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13.5" font-weight="400" fill="#1F2A44" text-anchor="start" xml:space="preserve">discarded at the end. Leftover</text>
+<text x="634" y="619" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13.5" font-weight="400" fill="#1F2A44" text-anchor="start" xml:space="preserve">ciphertext becomes useless.</text>
+<rect x="16" y="384" width="268" height="264" rx="8" fill="#F1F3F6" stroke="#6B7787" stroke-width="1.2"/>
+<text x="34" y="412" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="15" font-weight="700" fill="#1F2A44" text-anchor="start" xml:space="preserve">Who is stopped?</text>
+<circle cx="40" cy="443" r="7" fill="#2E7D4F"/>
+<text x="56" y="448" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="14.5" font-weight="700" fill="#1F2A44" text-anchor="start" xml:space="preserve">Outside attackers</text>
+<text x="56" y="470" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13" font-weight="400" fill="#5B6577" text-anchor="start" xml:space="preserve">stopped: network, IAM, encryption</text>
+<circle cx="40" cy="509" r="7" fill="#2E7D4F"/>
+<text x="56" y="514" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="14.5" font-weight="700" fill="#1F2A44" text-anchor="start" xml:space="preserve">Our own admins</text>
+<text x="56" y="536" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13" font-weight="400" fill="#5B6577" text-anchor="start" xml:space="preserve">stopped: enclave + key policy</text>
+<circle cx="40" cy="575" r="7" fill="#A86A12"/>
+<text x="56" y="580" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="14.5" font-weight="700" fill="#1F2A44" text-anchor="start" xml:space="preserve">AWS itself</text>
+<text x="56" y="602" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13" font-weight="400" fill="#5B6577" text-anchor="start" xml:space="preserve">trusted: hardware + hypervisor</text>
+<path d="M 150,210 L 150,236" fill="none" stroke="#1F2A44" stroke-width="2" marker-end="url(#e1F2A44)"/>
+<path d="M 284,151 L 314,151" fill="none" stroke="#1F2A44" stroke-width="2" marker-end="url(#e1F2A44)"/>
+<path d="M 450,210 L 450,236" fill="none" stroke="#2E7D4F" stroke-width="2" marker-end="url(#e2E7D4F)"/>
+<path d="M 750,210 L 750,236" fill="none" stroke="#A86A12" stroke-width="2" marker-end="url(#eA86A12)"/>
+<path d="M 450,356 L 450,382" fill="none" stroke="#2E7D4F" stroke-width="2" marker-end="url(#e2E7D4F)"/>
+<path d="M 750,356 L 750,382" fill="none" stroke="#A86A12" stroke-width="2" marker-end="url(#eA86A12)"/>
+<path d="M 450,502 L 450,528" fill="none" stroke="#B23A2E" stroke-width="2" stroke-dasharray="5 4" marker-end="url(#eB23A2E)"/>
+<path d="M 750,502 L 750,528" fill="none" stroke="#A86A12" stroke-width="2" marker-end="url(#eA86A12)"/>
+<path d="M 584,443 L 600,443 L 600,151 L 614,151" fill="none" stroke="#2E7D4F" stroke-width="2" marker-end="url(#e2E7D4F)"/>
+<rect x="16" y="672" width="868" height="104" rx="8" fill="#E3EDF7" stroke="#1F4E79" stroke-width="1.2"/>
+<text x="34" y="699" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="15" font-weight="700" fill="#1F4E79" text-anchor="start" xml:space="preserve">Read it as one sentence:</text>
+<text x="34" y="724" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="14.5" font-weight="400" fill="#1F2A44" text-anchor="start" xml:space="preserve">We defend against outsiders and our own admins (WHY), so data is decrypted only</text>
+<text x="34" y="745" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="14.5" font-weight="400" fill="#1F2A44" text-anchor="start" xml:space="preserve">inside a Nitro Enclave (WHERE), and KMS gives the per-job key only to that attested</text>
+<text x="34" y="766" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="14.5" font-weight="400" fill="#1F2A44" text-anchor="start" xml:space="preserve">enclave, which forgets it when the job ends (HOW).</text>
+</svg>

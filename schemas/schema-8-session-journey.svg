@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="640" viewBox="0 0 900 640">
+<defs><marker id="e6B7787" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#6B7787"/></marker><marker id="s6B7787" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M10,0 L0,5 L10,10 z" fill="#6B7787"/></marker></defs>
+<rect width="900" height="640" fill="#FFFFFF"/>
+<rect x="16" y="12" width="868" height="40" rx="20" fill="#1F2A44" stroke="#1F2A44" stroke-width="1"/>
+<text x="450" y="38" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="15" font-weight="700" fill="#FFFFFF" text-anchor="middle" xml:space="preserve">SESSION 1  ·  1 October 2026  ·  from an idea to a working enclave on AWS</text>
+<rect x="16" y="64" width="18" height="14" rx="3" fill="#E3EDF7" stroke="#1F4E79" stroke-width="1.4"/>
+<text x="42" y="76" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="12.5" font-weight="400" fill="#5B6577" text-anchor="start" xml:space="preserve">on the laptop (free)</text>
+<rect x="220" y="64" width="18" height="14" rx="3" fill="#FCF0D9" stroke="#A86A12" stroke-width="1.4"/>
+<text x="246" y="76" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="12.5" font-weight="400" fill="#5B6577" text-anchor="start" xml:space="preserve">on AWS (paid by the hour only in the lab phase)</text>
+<rect x="10" y="96" width="205" height="118" rx="10" fill="#E3EDF7" stroke="#1F4E79" stroke-width="1.6"/>
+<circle cx="34" cy="122" r="14" fill="#1F4E79" stroke="#FFFFFF" stroke-width="2"/>
+<text x="34" y="127" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="14" font-weight="700" fill="#FFFFFF" text-anchor="middle" xml:space="preserve">1</text>
+<text x="56" y="127" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="14" font-weight="700" fill="#1F2A44" text-anchor="start" xml:space="preserve">Folder rules</text>
+<text x="28" y="160" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="12.5" font-weight="400" fill="#1F2A44" text-anchor="start" xml:space="preserve">local only, no artifacts,</text>
+<text x="28" y="179" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="12.5" font-weight="400" fill="#1F2A44" text-anchor="start" xml:space="preserve">all docs in this folder</text>
+<rect x="235" y="96" width="205" height="118" rx="10" fill="#E3EDF7" stroke="#1F4E79" stroke-width="1.6"/>
+<circle cx="259" cy="122" r="14" fill="#1F4E79" stroke="#FFFFFF" stroke-width="2"/>
+<text x="259" y="127" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="14" font-weight="700" fill="#FFFFFF" text-anchor="middle" xml:space="preserve">2</text>
+<text x="281" y="127" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="14" font-weight="700" fill="#1F2A44" text-anchor="start" xml:space="preserve">Study guide v2</text>
+<text x="253" y="160" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="12.5" font-weight="400" fill="#1F2A44" text-anchor="start" xml:space="preserve">the big picture, 10 concepts,</text>
+<text x="253" y="179" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="12.5" font-weight="400" fill="#1F2A44" text-anchor="start" xml:space="preserve">diagrams, exam corner</text>
+<rect x="460" y="96" width="205" height="118" rx="10" fill="#E3EDF7" stroke="#1F4E79" stroke-width="1.6"/>
+<circle cx="484" cy="122" r="14" fill="#1F4E79" stroke="#FFFFFF" stroke-width="2"/>
+<text x="484" y="127" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="14" font-weight="700" fill="#FFFFFF" text-anchor="middle" xml:space="preserve">3</text>
+<text x="506" y="127" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="14" font-weight="700" fill="#1F2A44" text-anchor="start" xml:space="preserve">TASK-01 data</text>
+<text x="478" y="160" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="12.5" font-weight="400" fill="#1F2A44" text-anchor="start" xml:space="preserve">100 employees, Jan–Jun 2026,</text>
+<text x="478" y="179" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="12.5" font-weight="400" fill="#1F2A44" text-anchor="start" xml:space="preserve">4 items, Italian rules</text>
+<rect x="685" y="96" width="205" height="118" rx="10" fill="#E3EDF7" stroke="#1F4E79" stroke-width="1.6"/>
+<circle cx="709" cy="122" r="14" fill="#1F4E79" stroke="#FFFFFF" stroke-width="2"/>
+<text x="709" y="127" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="14" font-weight="700" fill="#FFFFFF" text-anchor="middle" xml:space="preserve">4</text>
+<text x="731" y="127" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="14" font-weight="700" fill="#1F2A44" text-anchor="start" xml:space="preserve">Formulas + Mode A</text>
+<text x="703" y="160" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="12.5" font-weight="400" fill="#1F2A44" text-anchor="start" xml:space="preserve">test-first, 29 planted</text>
+<text x="703" y="179" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="12.5" font-weight="400" fill="#1F2A44" text-anchor="start" xml:space="preserve">errors, answer key</text>
+<rect x="685" y="262" width="205" height="118" rx="10" fill="#E3EDF7" stroke="#1F4E79" stroke-width="1.6"/>
+<circle cx="709" cy="288" r="14" fill="#1F4E79" stroke="#FFFFFF" stroke-width="2"/>
+<text x="709" y="293" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="14" font-weight="700" fill="#FFFFFF" text-anchor="middle" xml:space="preserve">5</text>
+<text x="731" y="293" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="14" font-weight="700" fill="#1F2A44" text-anchor="start" xml:space="preserve">What comes out?</text>
+<text x="703" y="326" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="12.5" font-weight="400" fill="#1F2A44" text-anchor="start" xml:space="preserve">ciphertext in, ciphertext</text>
+<text x="703" y="345" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="12.5" font-weight="400" fill="#1F2A44" text-anchor="start" xml:space="preserve">out (guide 2.5)</text>
+<rect x="460" y="262" width="205" height="118" rx="10" fill="#E3EDF7" stroke="#1F4E79" stroke-width="1.6"/>
+<circle cx="484" cy="288" r="14" fill="#1F4E79" stroke="#FFFFFF" stroke-width="2"/>
+<text x="484" y="293" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="14" font-weight="700" fill="#FFFFFF" text-anchor="middle" xml:space="preserve">6</text>
+<text x="506" y="293" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="14" font-weight="700" fill="#1F2A44" text-anchor="start" xml:space="preserve">EC2 or EKS?</text>
+<text x="478" y="326" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="12.5" font-weight="400" fill="#1F2A44" text-anchor="start" xml:space="preserve">Tier 1 only (EC2),</text>
+<text x="478" y="345" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="12.5" font-weight="400" fill="#1F2A44" text-anchor="start" xml:space="preserve">Stockholm, On-Demand</text>
+<rect x="235" y="262" width="205" height="118" rx="10" fill="#E3EDF7" stroke="#1F4E79" stroke-width="1.6"/>
+<circle cx="259" cy="288" r="14" fill="#1F4E79" stroke="#FFFFFF" stroke-width="2"/>
+<text x="259" y="293" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="14" font-weight="700" fill="#FFFFFF" text-anchor="middle" xml:space="preserve">7</text>
+<text x="281" y="293" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="14" font-weight="700" fill="#1F2A44" text-anchor="start" xml:space="preserve">10 decisions</text>
+<text x="253" y="326" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="12.5" font-weight="400" fill="#1F2A44" text-anchor="start" xml:space="preserve">base/lab split, one key,</text>
+<text x="253" y="345" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="12.5" font-weight="400" fill="#1F2A44" text-anchor="start" xml:space="preserve">public subnet + SSM</text>
+<rect x="10" y="262" width="205" height="118" rx="10" fill="#E3EDF7" stroke="#1F4E79" stroke-width="1.6"/>
+<circle cx="34" cy="288" r="14" fill="#1F4E79" stroke="#FFFFFF" stroke-width="2"/>
+<text x="34" y="293" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="14" font-weight="700" fill="#FFFFFF" text-anchor="middle" xml:space="preserve">8</text>
+<text x="56" y="293" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="14" font-weight="700" fill="#1F2A44" text-anchor="start" xml:space="preserve">Spec + Terraform</text>
+<text x="28" y="326" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="12.5" font-weight="400" fill="#1F2A44" text-anchor="start" xml:space="preserve">validated offline,</text>
+<text x="28" y="345" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="12.5" font-weight="400" fill="#1F2A44" text-anchor="start" xml:space="preserve">PCR0 guard tests</text>
+<rect x="10" y="428" width="205" height="118" rx="10" fill="#E3EDF7" stroke="#1F4E79" stroke-width="1.6"/>
+<circle cx="34" cy="454" r="14" fill="#1F4E79" stroke="#FFFFFF" stroke-width="2"/>
+<text x="34" y="459" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="14" font-weight="700" fill="#FFFFFF" text-anchor="middle" xml:space="preserve">9</text>
+<text x="56" y="459" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="14" font-weight="700" fill="#1F2A44" text-anchor="start" xml:space="preserve">Enclave code</text>
+<text x="28" y="492" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="12.5" font-weight="400" fill="#1F2A44" text-anchor="start" xml:space="preserve">70 tests, local dry run,</text>
+<text x="28" y="511" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="12.5" font-weight="400" fill="#1F2A44" text-anchor="start" xml:space="preserve">image run in Docker</text>
+<rect x="235" y="428" width="205" height="118" rx="10" fill="#FCF0D9" stroke="#A86A12" stroke-width="1.6"/>
+<circle cx="259" cy="454" r="14" fill="#A86A12" stroke="#FFFFFF" stroke-width="2"/>
+<text x="259" y="459" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="12" font-weight="700" fill="#FFFFFF" text-anchor="middle" xml:space="preserve">10</text>
+<text x="281" y="459" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="14" font-weight="700" fill="#1F2A44" text-anchor="start" xml:space="preserve">Base phase (AWS)</text>
+<text x="253" y="492" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="12.5" font-weight="400" fill="#1F2A44" text-anchor="start" xml:space="preserve">13 resources, envelope</text>
+<text x="253" y="511" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="12.5" font-weight="400" fill="#1F2A44" text-anchor="start" xml:space="preserve">in S3, root (AWS-11)</text>
+<rect x="460" y="428" width="205" height="118" rx="10" fill="#FCF0D9" stroke="#A86A12" stroke-width="1.6"/>
+<circle cx="484" cy="454" r="14" fill="#A86A12" stroke="#FFFFFF" stroke-width="2"/>
+<text x="484" y="459" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="12" font-weight="700" fill="#FFFFFF" text-anchor="middle" xml:space="preserve">11</text>
+<text x="506" y="459" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="14" font-weight="700" fill="#1F2A44" text-anchor="start" xml:space="preserve">Lab phase (AWS)</text>
+<text x="478" y="492" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="12.5" font-weight="400" fill="#1F2A44" text-anchor="start" xml:space="preserve">port 80 (AWS-12), PCR0</text>
+<text x="478" y="511" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="12.5" font-weight="400" fill="#1F2A44" text-anchor="start" xml:space="preserve">95 -&gt; 96 (IMPL-8), job ran</text>
+<rect x="685" y="428" width="205" height="118" rx="10" fill="#F1F3F6" stroke="#6B7787" stroke-width="1.6"/>
+<circle cx="709" cy="454" r="14" fill="#6B7787" stroke="#FFFFFF" stroke-width="2"/>
+<text x="709" y="459" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="12" font-weight="700" fill="#FFFFFF" text-anchor="middle" xml:space="preserve">12</text>
+<text x="731" y="459" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="14" font-weight="700" fill="#1F2A44" text-anchor="start" xml:space="preserve">Teardown</text>
+<text x="703" y="492" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="12.5" font-weight="400" fill="#1F2A44" text-anchor="start" xml:space="preserve">lab 16:42, base 16:50,</text>
+<text x="703" y="511" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="12.5" font-weight="400" fill="#1F2A44" text-anchor="start" xml:space="preserve">key pending deletion</text>
+<path d="M 217,155.0 L 233,155.0" fill="none" stroke="#6B7787" stroke-width="2" marker-end="url(#e6B7787)"/>
+<path d="M 442,155.0 L 458,155.0" fill="none" stroke="#6B7787" stroke-width="2" marker-end="url(#e6B7787)"/>
+<path d="M 667,155.0 L 683,155.0" fill="none" stroke="#6B7787" stroke-width="2" marker-end="url(#e6B7787)"/>
+<path d="M 787.5,216 L 787.5,260" fill="none" stroke="#6B7787" stroke-width="2" marker-end="url(#e6B7787)"/>
+<path d="M 683,321.0 L 667,321.0" fill="none" stroke="#6B7787" stroke-width="2" marker-end="url(#e6B7787)"/>
+<path d="M 458,321.0 L 442,321.0" fill="none" stroke="#6B7787" stroke-width="2" marker-end="url(#e6B7787)"/>
+<path d="M 233,321.0 L 217,321.0" fill="none" stroke="#6B7787" stroke-width="2" marker-end="url(#e6B7787)"/>
+<path d="M 112.5,382 L 112.5,426" fill="none" stroke="#6B7787" stroke-width="2" marker-end="url(#e6B7787)"/>
+<path d="M 217,487.0 L 233,487.0" fill="none" stroke="#6B7787" stroke-width="2" marker-end="url(#e6B7787)"/>
+<path d="M 442,487.0 L 458,487.0" fill="none" stroke="#6B7787" stroke-width="2" marker-end="url(#e6B7787)"/>
+<path d="M 667,487.0 L 683,487.0" fill="none" stroke="#6B7787" stroke-width="2" marker-end="url(#e6B7787)"/>
+<rect x="16" y="572" width="868" height="56" rx="12" fill="#E2F2E8" stroke="#2E7D4F" stroke-width="1.6"/>
+<text x="450" y="596" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="14.5" font-weight="700" fill="#2E7D4F" text-anchor="middle" xml:space="preserve">Result: the design worked on real Nitro hardware, and everything was destroyed afterwards.</text>
+<text x="450" y="617" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13" font-weight="400" fill="#1F2A44" text-anchor="middle" xml:space="preserve">Ongoing cost: $0. After 7 days the key is gone and the encrypted data is shredded for good.</text>
+</svg>

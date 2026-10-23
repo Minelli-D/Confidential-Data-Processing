@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="640" viewBox="0 0 900 640">
+<defs><marker id="e1F2A44" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#1F2A44"/></marker><marker id="s1F2A44" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M10,0 L0,5 L10,10 z" fill="#1F2A44"/></marker><marker id="e6B7787" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#6B7787"/></marker><marker id="s6B7787" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M10,0 L0,5 L10,10 z" fill="#6B7787"/></marker><marker id="eB23A2E" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#B23A2E"/></marker><marker id="sB23A2E" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M10,0 L0,5 L10,10 z" fill="#B23A2E"/></marker></defs>
+<rect width="900" height="640" fill="#FFFFFF"/>
+<rect x="16" y="16" width="420" height="520" rx="12" fill="#F7F9FC" stroke="#1F4E79" stroke-width="1.6" stroke-dasharray="7 5"/>
+<text x="32" y="42" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="16" font-weight="700" fill="#1F4E79" text-anchor="start" xml:space="preserve">payslips-2026-H1.json</text>
+<text x="32" y="62" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="12.5" font-weight="400" fill="#5B6577" text-anchor="start" xml:space="preserve">synthetic · 100 employees · January–June 2026 · EUR</text>
+<rect x="36" y="80" width="380" height="74" rx="8" fill="#F1F3F6" stroke="#6B7787" stroke-width="1.5"/>
+<text x="52" y="104" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="14.5" font-weight="700" fill="#1F2A44" text-anchor="start" xml:space="preserve">dataset</text>
+<text x="52" y="126" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13" font-weight="400" fill="#1F2A44" text-anchor="start" xml:space="preserve">id, period, currency, country,</text>
+<text x="52" y="144" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13" font-weight="400" fill="#1F2A44" text-anchor="start" xml:space="preserve">rules_version = it-simplified-0.1</text>
+<rect x="36" y="170" width="380" height="92" rx="8" fill="#FFFFFF" stroke="#1F2A44" stroke-width="1.5"/>
+<text x="52" y="194" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="14.5" font-weight="700" fill="#1F2A44" text-anchor="start" xml:space="preserve">employees  ·  100</text>
+<text x="52" y="216" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13" font-weight="400" fill="#1F2A44" text-anchor="start" xml:space="preserve">contract: level, monthly gross</text>
+<text x="52" y="234" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13" font-weight="400" fill="#1F2A44" text-anchor="start" xml:space="preserve">hire / termination dates</text>
+<text x="52" y="252" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13" font-weight="400" fill="#1F2A44" text-anchor="start" xml:space="preserve">opening balances: leave, TFR</text>
+<rect x="36" y="280" width="380" height="74" rx="8" fill="#FFFFFF" stroke="#1F2A44" stroke-width="1.5"/>
+<text x="52" y="304" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="14.5" font-weight="700" fill="#1F2A44" text-anchor="start" xml:space="preserve">attendance  ·  one row per employee per month</text>
+<text x="52" y="326" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13" font-weight="400" fill="#1F2A44" text-anchor="start" xml:space="preserve">working days, days worked, overtime hours,</text>
+<text x="52" y="344" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13" font-weight="400" fill="#1F2A44" text-anchor="start" xml:space="preserve">holiday work, sick episodes, leave taken</text>
+<rect x="36" y="380" width="380" height="92" rx="8" fill="#FCF0D9" stroke="#A86A12" stroke-width="1.5"/>
+<text x="52" y="404" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="14.5" font-weight="700" fill="#1F2A44" text-anchor="start" xml:space="preserve">payslips  ·  580 issued</text>
+<text x="52" y="426" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13" font-weight="400" fill="#1F2A44" text-anchor="start" xml:space="preserve">lines: BASE, STR, FEST, FESTLAV, MAL,</text>
+<text x="52" y="444" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13" font-weight="400" fill="#1F2A44" text-anchor="start" xml:space="preserve">RAT13, FERIE, TFR</text>
+<text x="52" y="462" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13" font-weight="400" fill="#1F2A44" text-anchor="start" xml:space="preserve">totals: gross, INPS, IRPEF, net pay</text>
+<text x="226" y="498" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13" font-weight="700" fill="#A86A12" text-anchor="middle" xml:space="preserve">29 payslips (5%) carry one planted error</text>
+<text x="226" y="518" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="12.5" font-weight="400" fill="#5B6577" text-anchor="middle" xml:space="preserve">inputs → formulas → expected payslip → compare</text>
+<rect x="500" y="40" width="384" height="80" rx="8" fill="#FFFFFF" stroke="#1F2A44" stroke-width="1.8"/>
+<text x="692" y="68" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="15" font-weight="700" fill="#1F2A44" text-anchor="middle" xml:space="preserve">1 · Encrypt locally</text>
+<text x="692" y="90" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13" font-weight="400" fill="#1F2A44" text-anchor="middle" xml:space="preserve">envelope encryption,</text>
+<text x="692" y="107" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13" font-weight="400" fill="#1F2A44" text-anchor="middle" xml:space="preserve">one data key per file</text>
+<path d="M 692,120 L 692,148" fill="none" stroke="#6B7787" stroke-width="2" marker-end="url(#e6B7787)"/>
+<rect x="500" y="150" width="384" height="80" rx="8" fill="#F1F3F6" stroke="#6B7787" stroke-width="1.8"/>
+<text x="692" y="178" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="15" font-weight="700" fill="#1F2A44" text-anchor="middle" xml:space="preserve">2 · Store in S3</text>
+<text x="692" y="200" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13" font-weight="400" fill="#1F2A44" text-anchor="middle" xml:space="preserve">SSE-KMS, VPC endpoint only</text>
+<text x="692" y="217" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13" font-weight="400" fill="#1F2A44" text-anchor="middle" xml:space="preserve">ciphertext only</text>
+<path d="M 692,230 L 692,258" fill="none" stroke="#6B7787" stroke-width="2" marker-end="url(#e6B7787)"/>
+<rect x="500" y="260" width="384" height="80" rx="8" fill="#E2F2E8" stroke="#2E7D4F" stroke-width="1.8"/>
+<text x="692" y="288" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="15" font-weight="700" fill="#2E7D4F" text-anchor="middle" xml:space="preserve">3 · Mode A in the enclave</text>
+<text x="692" y="310" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13" font-weight="400" fill="#1F2A44" text-anchor="middle" xml:space="preserve">payroll_rules.py + reconcile.py</text>
+<text x="692" y="327" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13" font-weight="400" fill="#1F2A44" text-anchor="middle" xml:space="preserve">checks rules_version first</text>
+<path d="M 692,340 L 692,368" fill="none" stroke="#6B7787" stroke-width="2" marker-end="url(#e6B7787)"/>
+<rect x="500" y="370" width="384" height="80" rx="8" fill="#F1F3F6" stroke="#6B7787" stroke-width="1.8"/>
+<text x="692" y="398" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="15" font-weight="700" fill="#1F2A44" text-anchor="middle" xml:space="preserve">4 · Encrypted report</text>
+<text x="692" y="420" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13" font-weight="400" fill="#1F2A44" text-anchor="middle" xml:space="preserve">findings: payslip, line,</text>
+<text x="692" y="437" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13" font-weight="400" fill="#1F2A44" text-anchor="middle" xml:space="preserve">expected, issued, difference</text>
+<path d="M 436,80 L 498,80" fill="none" stroke="#1F2A44" stroke-width="2.2" marker-end="url(#e1F2A44)"/>
+<rect x="16" y="560" width="868" height="64" rx="10" fill="#FFFFFF" stroke="#B23A2E" stroke-width="1.6" stroke-dasharray="6 4"/>
+<text x="32" y="586" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="15" font-weight="700" fill="#B23A2E" text-anchor="start" xml:space="preserve">answer-key-2026-H1.json</text>
+<text x="32" y="608" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13" font-weight="400" fill="#1F2A44" text-anchor="start" xml:space="preserve">the 29 planted errors · stays local · never sent to S3 or the enclave</text>
+<path d="M 692,450 L 692,556" fill="none" stroke="#B23A2E" stroke-width="2" stroke-dasharray="6 4" marker-end="url(#eB23A2E)"/>
+<text x="680" y="512" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13" font-weight="700" fill="#B23A2E" text-anchor="end" xml:space="preserve">score the report:</text>
+<text x="680" y="530" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13" font-weight="400" fill="#1F2A44" text-anchor="end" xml:space="preserve">29 matched · 0 missed · 0 extra</text>
+</svg>

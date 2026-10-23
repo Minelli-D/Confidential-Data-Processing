@@ -1,0 +1,39 @@
+#!/bin/bash
+# Startup script of the parent instance (runs once, as root, at first boot)
+# shellcheck disable=SC2154,SC2086  # the dollar-brace values are filled in by Terraform (templatefile)
+set -euxo pipefail
+
+# Safety net 2: shut down (= terminate, see ec2.tf) after ${self_destruct_minutes} minutes.
+# Cancel during a long session with: sudo shutdown -c
+shutdown -h +${self_destruct_minutes} "confidential-poc self-destruct"
+
+# Ready-made parts (decision 7): Nitro Enclaves CLI (includes vsock-proxy), Docker for the one-time build
+dnf install -y aws-nitro-enclaves-cli aws-nitro-enclaves-cli-devel docker git jq
+
+# Set aside vCPUs and memory for the enclave (taken away from this instance)
+ALLOCATOR=/etc/nitro_enclaves/allocator.yaml
+sed -i "s/^cpu_count:.*/cpu_count: ${enclave_cpu_count}/" "$ALLOCATOR"
+sed -i "s/^memory_mib:.*/memory_mib: ${enclave_memory_mib}/" "$ALLOCATOR"
+
+# vsock-proxy only forwards to allow-listed hosts: make sure KMS in our Region is on the list
+PROXY_ALLOWLIST=/etc/nitro_enclaves/vsock-proxy.yaml
+grep -q "kms.${region}.amazonaws.com" "$PROXY_ALLOWLIST" || \
+  echo "- {address: kms.${region}.amazonaws.com, port: 443}" >> "$PROXY_ALLOWLIST"
+
+systemctl enable --now nitro-enclaves-allocator.service
+systemctl enable --now docker
+usermod -aG ne,docker ec2-user
+
+# Settings for the POC scripts (poc/enclave/build_enclave.sh, run_job.sh): no arguments needed on the instance
+mkdir -p /opt/poc
+cat > /opt/poc/poc.env <<ENVFILE
+BUCKET=${bucket}
+REGION=${region}
+ENCLAVE_CPU_COUNT=${enclave_cpu_count}
+ENCLAVE_MEMORY_MIB=${enclave_memory_mib}
+ENVFILE
+
+# Source code uploaded from the laptop (upload_enclave_src.sh). Best effort: the scripts sync again anyway
+aws s3 sync "s3://${bucket}/enclave/src/" /opt/poc/src/ --region "${region}" || true
+
+echo "confidential-poc: parent ready at $(date -Is)" > /var/log/confidential-poc-ready
