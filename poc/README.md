@@ -2,7 +2,7 @@
 
 Prove on real AWS hardware that sensitive data (synthetic payslips) can be decrypted **only inside a verified Nitro Enclave**, processed there, and leave nothing usable behind.
 
-**Status:** the first run on AWS (1 October 2026) worked: the job ran inside a real Nitro Enclave, and everything was destroyed the same afternoon. That run didn't record the status line, tests B1/B2 or the score, so the next run will capture them as the formal proof. The whole story is in `confidential-poc-handbook.docx`.
+**Status:** the first run on AWS worked: the job ran inside a real Nitro Enclave, and everything was destroyed the same afternoon. That run didn't record the status line, tests B1/B2 or the score, so the next run will capture them as the formal proof. The whole story is in `confidential-poc-handbook.docx`.
 
 ## Where things are
 
@@ -20,7 +20,7 @@ Prove on real AWS hardware that sensitive data (synthetic payslips) can be decry
 
 ## Decisions
 
-All decisions were taken on **1 October 2026**. TASK-01 and TASK-02, the labels you'll see on the documents, are the two parts of the work: the data and formulas, then the AWS deployment.
+All decisions were taken. TASK-01 and TASK-02, the labels you'll see on the documents, are the two parts of the work: the data and formulas, then the AWS deployment.
 
 ### Data and formulas (TASK-01)
 

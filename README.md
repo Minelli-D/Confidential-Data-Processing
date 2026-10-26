@@ -28,7 +28,7 @@ This repository takes that idea from the design all the way to a real run on AWS
 |---|---|
 | **Design** | complete: study guide, specification, 12 diagrams, and every decision recorded with its reason |
 | **Code** | complete and tested: 70 Python tests, 4 offline Terraform tests, and the enclave image built and run locally |
-| **First run on AWS** (1 October 2026) | deployed in Stockholm; the job ran **inside a real Nitro Enclave**, and everything was destroyed the same afternoon |
+| **First run on AWS** | deployed in Stockholm; the job ran **inside a real Nitro Enclave**|
 | **Today** | no AWS resources and no running cost. The KMS key was scheduled for deletion right after the run, which makes the encrypted copies unreadable for good |
 | **Still to capture** | the first run didn't record the status line, tests B1/B2 or the score; the next run will, as the formal proof |
 | **Before real data** | five gaps to close (F1–F5): sealed output, a reproducible build linked to the source, split key administration, a signed report and an expected dataset. See [poc/README.md](poc/README.md#future-implementation-gaps-to-close-before-real-data) |
@@ -160,14 +160,6 @@ terraform -chdir=infra/base init && terraform -chdir=infra/base test   # 4 offli
 #   poc/procedures/Base-phase-terraform.docx   (about 30–45 minutes, ~$1 a month)
 #   poc/procedures/Lab-phase-terraform.docx    (first run about 1.5–2 hours, ~$0.45)
 ```
-
----
-
-## Ground rules
-
-- **Synthetic data only.** Every employee, amount and event in `data/` comes from `poc/payslip/generate_dataset.py`. No real person's data is in this repository.
-- **Nothing tied to a real AWS account is committed**: no account IDs, bucket names, instance IDs, emails or local paths. Terraform state, plan files, `*.tfvars`, the encrypted copies and the downloaded reports all stay out of git.
-- **`terraform apply` only after reading the plan.**
 
 ---
 
